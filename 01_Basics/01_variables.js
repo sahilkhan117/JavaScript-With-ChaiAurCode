@@ -4,3 +4,5 @@ var accountPassword = "12345"
 accountCity = "Sagar"
 
 // accountId = 67565454 // : Not allowed because constant
+
+console.log(accountId, accountEmai, accountPassword, accountCity)
