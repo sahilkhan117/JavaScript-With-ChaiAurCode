@@ -5,4 +5,4 @@ accountCity = "Sagar"
 
 // accountId = 67565454 // : Not allowed because constant
 
-console.log(accountId, accountEmai, accountPassword, accountCity)
+console.table([accountId, accountEmai, accountPassword, accountCity])
