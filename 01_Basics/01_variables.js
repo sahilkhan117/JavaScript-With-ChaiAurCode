@@ -17,3 +17,4 @@ console.table([accountId, accountEmail, accountPassword, accountCity])
 
 // accountId = 67565454 // : Not allowed because constant
 accountEmail = "sahil2@MS.com"
+accountPassword = "98765"
