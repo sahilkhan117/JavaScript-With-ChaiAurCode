@@ -21,3 +21,12 @@ accountPassword = "98765"
 accountCity = "Damoh"
 
 console.table([accountId, accountEmail, accountPassword, accountCity])
+// output
+// ┌─────────┬─────────────────┐
+// │ (index) │ Values          │
+// ├─────────┼─────────────────┤
+// │ 0       │ 7870954         │
+// │ 1       │ 'sahil2@MS.com' │
+// │ 2       │ '98765'         │
+// │ 3       │ 'Damoh'         │
+// └─────────┴─────────────────┘
