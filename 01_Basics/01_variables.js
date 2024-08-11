@@ -19,3 +19,5 @@ console.table([accountId, accountEmail, accountPassword, accountCity])
 accountEmail = "sahil2@MS.com"
 accountPassword = "98765"
 accountCity = "Damoh"
+
+console.table([accountId, accountEmail, accountPassword, accountCity])
