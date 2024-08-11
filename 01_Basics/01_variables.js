@@ -3,7 +3,6 @@ let accountEmail = "sahil@MS.com"
 var accountPassword = "12345"
 accountCity = "Sagar"
 
-// accountId = 67565454 // : Not allowed because constant
 
 console.table([accountId, accountEmail, accountPassword, accountCity])
 // output
@@ -16,3 +15,5 @@ console.table([accountId, accountEmail, accountPassword, accountCity])
 // │ 3       │ 'Sagar'        │
 // └─────────┴────────────────┘
 
+// accountId = 67565454 // : Not allowed because constant
+accountEmail = "sahil2@MS.com"
