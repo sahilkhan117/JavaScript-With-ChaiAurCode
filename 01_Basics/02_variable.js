@@ -1,1 +1,1 @@
-// hi
+"use strict"; // treat all JS code as Newer version
