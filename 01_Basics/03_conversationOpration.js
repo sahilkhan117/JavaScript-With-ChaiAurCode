@@ -20,3 +20,4 @@ let inBoolean = Boolean(isLoggedIn)
 // "notempty" => true
 // {} => false
 // {state: "notEmpty"} => true
+
