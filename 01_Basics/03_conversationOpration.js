@@ -9,3 +9,5 @@ let ValueInNumber = Number(score)
 // "33abc" => NaN
 // true => 1 / false => 0
 // {} => NaN
+
+let isLoggedIn = "hitesh"
