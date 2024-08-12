@@ -11,3 +11,4 @@ let ValueInNumber = Number(score)
 // {} => NaN
 
 let isLoggedIn = "hitesh"
+let inBoolean = Boolean(isLoggedIn)
