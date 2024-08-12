@@ -13,3 +13,10 @@ let ValueInNumber = Number(score)
 let isLoggedIn = "hitesh"
 let inBoolean = Boolean(isLoggedIn)
 // console.log(inBoolean); // true
+
+// boolean Conversation
+// 1 => true / 0 => false
+// "" => false 
+// "notempty" => true
+// {} => false
+// {state: "notEmpty"} => true
