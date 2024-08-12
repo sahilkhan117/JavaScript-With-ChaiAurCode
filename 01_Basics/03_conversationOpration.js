@@ -23,3 +23,4 @@ let inBoolean = Boolean(isLoggedIn)
 
 let myname = {}
 let instring = String(myname)
+// console.log(instring);
