@@ -22,3 +22,4 @@ let inBoolean = Boolean(isLoggedIn)
 // {state: "notEmpty"} => true
 
 let myname = {}
+let instring = String(myname)
