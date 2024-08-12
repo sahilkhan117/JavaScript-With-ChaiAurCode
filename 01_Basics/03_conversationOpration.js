@@ -21,3 +21,4 @@ let inBoolean = Boolean(isLoggedIn)
 // {} => false
 // {state: "notEmpty"} => true
 
+let myname = {}
