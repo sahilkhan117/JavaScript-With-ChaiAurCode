@@ -30,3 +30,4 @@ console.table([accountId, accountEmail, accountPassword, accountCity])
 // │ 2       │ '98765'         │
 // │ 3       │ 'Damoh'         │
 // └─────────┴─────────────────┘
+
