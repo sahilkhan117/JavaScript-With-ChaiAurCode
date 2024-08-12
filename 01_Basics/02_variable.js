@@ -6,3 +6,4 @@ string => ""
 boolean => true/false
 null => standalone value (reprresent nothing because 0 is a number)
 undifined => only initialized not assigned (default value of a empty variable)
+symbol => unique
