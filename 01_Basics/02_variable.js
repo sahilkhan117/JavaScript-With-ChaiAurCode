@@ -3,3 +3,4 @@
 number => 2^53
 bigint
 string => ""
+boolean => true/false
