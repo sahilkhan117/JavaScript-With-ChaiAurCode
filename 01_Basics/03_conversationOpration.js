@@ -12,3 +12,4 @@ let ValueInNumber = Number(score)
 
 let isLoggedIn = "hitesh"
 let inBoolean = Boolean(isLoggedIn)
+// console.log(inBoolean); // true
