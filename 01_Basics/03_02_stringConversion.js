@@ -32,3 +32,4 @@ let str3 = str1 + str2
 // console.log(1 + 2 + "2"); // 32
 
 // More reference 🧐🧐
+// GOTO: https://262.ecma-international.org/15.0/index.html
