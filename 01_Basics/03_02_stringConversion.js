@@ -19,3 +19,7 @@ let negvalue = -value
 // console.log(2**3); // 8
 // console.log(2/3); // 0.666666666666
 // console.log(2%3); // 2
+
+let str1 = "hello"
+let str2 = " sahil"
+let str3 = str1 + str2
