@@ -12,3 +12,10 @@ let negvalue = -value
 // console.log(negvalue);
 
 // some number oprations 😂😂😂😂
+
+// console.log(2+2); // 4
+// console.log(2-2); // 0
+// console.log(2*2); // 4
+// console.log(2**3); // 8
+// console.log(2/3); // 0.666666666666
+// console.log(2%3); // 2
