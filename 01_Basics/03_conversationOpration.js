@@ -24,3 +24,8 @@ let inBoolean = Boolean(isLoggedIn)
 let myname = {}
 let instring = String(myname)
 // console.log(instring);
+
+// string conversation
+// 33 => "33"
+// true => "true"
+// {} => [object Object]
