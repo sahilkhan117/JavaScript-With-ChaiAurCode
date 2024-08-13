@@ -5,3 +5,5 @@ let instring = String(someNumber)
 // console.log(typeof instring); // string
 
 // ************* Oprations **************
+
+let value = 3
