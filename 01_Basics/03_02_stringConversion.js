@@ -7,3 +7,4 @@ let instring = String(someNumber)
 // ************* Oprations **************
 
 let value = 3
+let negvalue = -value
