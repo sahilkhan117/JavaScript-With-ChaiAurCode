@@ -24,3 +24,5 @@ let str1 = "hello"
 let str2 = " sahil"
 let str3 = str1 + str2
 // console.log(str3); // normal str concat
+
+// Blunder 😵😵😵‍💫😵‍💫🥴🤒🤕
