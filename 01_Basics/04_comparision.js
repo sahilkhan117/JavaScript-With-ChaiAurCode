@@ -7,3 +7,6 @@
 // console.log(2 != 1);
 
 // 2️⃣ diffrent type comparition 🧐
+
+// console.log("2" > 1); // true (string automaticallly convert in the number)
+// console.log("02" > 1); // true (string automaticallly convert in the number)
