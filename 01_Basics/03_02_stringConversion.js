@@ -35,6 +35,7 @@ let str3 = str1 + str2
 let a = 1
 
 console.log("a++:", a++); // 1 (first print then increment)
+console.log("after a++:",a); // 2 (after increment)
 
 // More reference 🧐🧐
 // GOTO: https://262.ecma-international.org/15.0/index.html
