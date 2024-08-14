@@ -12,3 +12,7 @@
 // console.log("02" > 1); // true (string automaticallly convert in the number)
 
 // 3️⃣ null & undefined comparition
+
+console.log(null == 0); // false
+console.log(null > 0); // false
+console.log(null < 0); // false
