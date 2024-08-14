@@ -34,6 +34,8 @@ let str3 = str1 + str2
 // ⭐⭐ increament and decrement oprator
 let a = 1
 
+console.log("a++:", a++); // 1 (first print then increment)
+
 // More reference 🧐🧐
 // GOTO: https://262.ecma-international.org/15.0/index.html
 // for more Information about these conversion
