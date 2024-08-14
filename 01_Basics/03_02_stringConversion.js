@@ -36,6 +36,7 @@ let a = 1
 
 console.log("a++:", a++); // 1 (first print then increment)
 console.log("after a++:",a); // 2 (after increment)
+console.log("++a:", ++a); // 3 (first increment then print)
 
 // More reference 🧐🧐
 // GOTO: https://262.ecma-international.org/15.0/index.html
