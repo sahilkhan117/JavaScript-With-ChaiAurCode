@@ -40,6 +40,7 @@ console.log("++a:", ++a); // 3 (first increment then print)
 console.log("after ++a:", a); // 3 (after print)
 console.log("a--:", a--); // 3 (first decrement then print)
 console.log("after a--:", a); // 2 (after print)
+console.log("--a:" ,--a); // 1(first print then decrement)
 
 // More reference 🧐🧐
 // GOTO: https://262.ecma-international.org/15.0/index.html
