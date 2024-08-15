@@ -6,3 +6,4 @@ let MyNumber = 33 // Number
 let isLoggedIn = true // Boolean
 let aNull = null // null
 let undef // undefined
+let bigNumber = 6425762373478967567n // BigInt
