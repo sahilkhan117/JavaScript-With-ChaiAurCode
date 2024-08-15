@@ -4,3 +4,4 @@
 let MyString = "Hello" // String
 let MyNumber = 33 // Number
 let isLoggedIn = true // Boolean
+let aNull = null // null
