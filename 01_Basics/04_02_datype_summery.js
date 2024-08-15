@@ -18,3 +18,7 @@ let myObj = {
     age : 19
 }
 console.log(typeof myObj); // object
+
+let myFunc = function(){
+    console.log("this is function");
+}
