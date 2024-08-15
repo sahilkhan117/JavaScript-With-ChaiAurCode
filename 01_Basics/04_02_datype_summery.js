@@ -22,3 +22,4 @@ console.log(typeof myObj); // object
 let myFunc = function(){
     console.log("this is function");
 }
+console.log(typeof myFunc); // function
