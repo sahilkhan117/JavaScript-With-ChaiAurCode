@@ -27,3 +27,4 @@ console.log(undefined <= 0); // false
 console.log(undefined >= 0); // false
 
 // 4️⃣ === (type and value conversation)
+// == -> only compare value (after conversion)
