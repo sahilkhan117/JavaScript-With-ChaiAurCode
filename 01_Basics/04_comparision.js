@@ -29,3 +29,6 @@ console.log(undefined >= 0); // false
 // 4️⃣ === (type and value conversation)
 // == -> only compare value (after conversion)
 // === -> compare both value as well as datatype
+
+console.log("2" == 2); // true
+console.log("2" === 2); // false
