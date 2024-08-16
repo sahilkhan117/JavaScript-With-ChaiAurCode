@@ -17,3 +17,5 @@ let userOne = {
 }
 let userTwo = userOne
 userTwo.email = "S@sbi" // this will change both variable value
+
+console.log(userOne.email);
