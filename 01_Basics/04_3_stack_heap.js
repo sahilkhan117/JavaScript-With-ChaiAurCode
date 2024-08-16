@@ -10,3 +10,8 @@ myOtherName = "MSkhan"
 // console.log(myName); // sahilkhan
 // console.log(myOtherName); // MSkhan
 // these make a diffrent memory storage
+
+let userOne = {
+    email : "user@google.com",
+    upi : "m@sbi"
+}
