@@ -6,3 +6,5 @@
 let myName = "sahilkhan"
 let myOtherName = myName
 myOtherName = "MSkhan"
+
+// console.log(myName); // sahilkhan
