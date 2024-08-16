@@ -8,3 +8,4 @@ let myOtherName = myName
 myOtherName = "MSkhan"
 
 // console.log(myName); // sahilkhan
+// console.log(myOtherName); // MSkhan
