@@ -16,3 +16,4 @@ let userOne = {
     upi : "m@sbi"
 }
 let userTwo = userOne
+userTwo.email = "S@sbi" // this will change both variable value
