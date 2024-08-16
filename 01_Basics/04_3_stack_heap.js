@@ -15,3 +15,4 @@ let userOne = {
     email : "user@google.com",
     upi : "m@sbi"
 }
+let userTwo = userOne
