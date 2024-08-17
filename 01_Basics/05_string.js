@@ -10,4 +10,12 @@
 
 /*
 ⭐⭐ this is create a string class object usees these methods ⭐⭐
+String {'hello'}
+0: "h"1: "e"2: "l"3: "l"4: "o"
+length: 5
+[[Prototype]]: 
+    all methods : anchor(), at(), big(), blink(), bold(), , etc...
+    [[Prototype]]: Object
+    [[PrimitiveValue]]: ""
+[[PrimitiveValue]]: "hello"
 */
