@@ -37,3 +37,6 @@ const gameName = new String("M_Sahil_Khan");
 // const oneStr = "    sahil    "
 // console.log(oneStr);
 // console.log(oneStr.trim()); // remove start and end spaces and line break
+
+// const url = "https://sahil.com/sahil%20khan"
+// console.log(url.replace("%20", '-'))
