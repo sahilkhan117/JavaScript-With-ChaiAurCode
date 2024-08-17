@@ -21,3 +21,5 @@ length: 5
 */
 
 const gameName = new String("M_Sahil_Khan");
+
+// console.log(gameName[10]); // access as indexed (like arrey)
