@@ -7,3 +7,7 @@
 
 // string Interpolation (just like f"{}" in python) 👍🏻
 // console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
+
+/*
+⭐⭐ this is create a string class object usees these methods ⭐⭐
+*/
