@@ -4,3 +4,5 @@
 // const name = "sahil";
 // const repoCount = 5;
 // console.log(name + repoCount + " Value"); //🙅🏻‍♂️⚠️ Bad practice not use in Industry
+
+// string Interpolation (just like f"{}" in python) 👍🏻
