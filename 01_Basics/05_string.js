@@ -33,3 +33,7 @@ const gameName = new String("M_Sahil_Khan");
 
 // const anotherStr = gameName.slice(-8, 10) // accept -ve indexing
 // console.log(anotherStr);
+
+// const oneStr = "    sahil    "
+// console.log(oneStr);
+// console.log(oneStr.trim()); // remove start and end spaces and line break
