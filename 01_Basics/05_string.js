@@ -40,3 +40,5 @@ const gameName = new String("M_Sahil_Khan");
 
 // const url = "https://sahil.com/sahil%20khan"
 // console.log(url.replace("%20", '-'))
+
+// console.log(url.includes("khan")); // true
