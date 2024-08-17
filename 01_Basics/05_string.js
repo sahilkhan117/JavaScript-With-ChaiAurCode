@@ -19,3 +19,5 @@ length: 5
     [[PrimitiveValue]]: ""
 [[PrimitiveValue]]: "hello"
 */
+
+const gameName = new String("M_Sahil_Khan");
