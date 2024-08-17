@@ -27,3 +27,5 @@ const gameName = new String("M_Sahil_Khan");
 // console.log(gameName.toUpperCase()); // can't change real value
 // console.log(gameName.charAt(4)); // start with 0 index
 // console.log(gameName.indexOf("h")); // character first index
+
+// const newString = gameName.substring(0, 4) // "M_Sa" (start 0 end 3rd index)
