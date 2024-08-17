@@ -24,3 +24,4 @@ const gameName = new String("M_Sahil_Khan");
 
 // console.log(gameName[10]); // access as indexed (like arrey)
 // console.log(gameName.length);
+// console.log(gameName.toUpperCase()); // can't change real value
