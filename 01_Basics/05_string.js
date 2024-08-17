@@ -42,3 +42,5 @@ const gameName = new String("M_Sahil_Khan");
 // console.log(url.replace("%20", '-'))
 
 // console.log(url.includes("khan")); // true
+
+// console.log(gameName.split('_')); // return arrey [ 'M', 'Sahil', 'Khan' ]
