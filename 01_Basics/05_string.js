@@ -29,3 +29,7 @@ const gameName = new String("M_Sahil_Khan");
 // console.log(gameName.indexOf("h")); // character first index
 
 // const newString = gameName.substring(0, 4) // "M_Sa" (start 0 end 3rd index)
+// console.log(newString);
+
+// const anotherStr = gameName.slice(-8, 10) // accept -ve indexing
+// console.log(anotherStr);
