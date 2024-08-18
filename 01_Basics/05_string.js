@@ -58,6 +58,7 @@ console.log(`8. concat(" ", "world") : ${gameName.concat(" ", "world")} => conca
 console.log(`9. endsWith("khan") : ${gameName.endsWith("khan")} => check end with khan`);
 console.log(`10. fontcolor("red") : ${gameName.fontcolor("red")} => make text red`);
 console.log(`11. fontsize(5) : ${gameName.fontsize(5)} => make text font size 5`);
+console.log(`12. italics() : ${gameName.italics()} => make text italics`);
 
 
 
