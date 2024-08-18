@@ -8,17 +8,7 @@
 // string Interpolation (just like f"{}" in python) 👍🏻
 // console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
-/*
-⭐⭐ this is create a string class object usees these methods ⭐⭐
-String {'hello'}
-0: "h"1: "e"2: "l"3: "l"4: "o"
-length: 5
-[[Prototype]]: 
-    all methods : anchor(), at(), big(), blink(), bold(), , etc...
-    [[Prototype]]: Object
-    [[PrimitiveValue]]: ""
-[[PrimitiveValue]]: "hello"
-*/
+
 
 const gameName = new String("M_Sahil_Khan");
 
@@ -44,3 +34,16 @@ const gameName = new String("M_Sahil_Khan");
 // console.log(url.includes("khan")); // true
 
 // console.log(gameName.split('_')); // return arrey [ 'M', 'Sahil', 'Khan' ]
+
+/*
+⭐⭐ this is create a string class object usees these methods ⭐⭐
+String {'hello'}
+0: "h"1: "e"2: "l"3: "l"4: "o"
+length: 5
+[[Prototype]]: 
+    all methods : anchor(), at(), big(), blink(), bold(), , etc...
+    [[Prototype]]: Object
+    [[PrimitiveValue]]: ""
+[[PrimitiveValue]]: "hello"
+*/
+
