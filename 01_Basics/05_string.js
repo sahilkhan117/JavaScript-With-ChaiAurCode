@@ -64,6 +64,7 @@ console.log(`14. length : ${gameName.length} => get length`);
 console.log(`15. link("www.sahil.com") : ${gameName.link("www.sahil.com")} => make a link with a # tag`);
 console.log(`16. normalize() : ${gameName.normalize()} => make text normalize`);
 console.log(`17. repeat(3) : ${gameName.repeat(3)} => make text repeat 3 times`);
+console.log(`18. small() : ${gameName.small()} => make text small`);
 
 
 
