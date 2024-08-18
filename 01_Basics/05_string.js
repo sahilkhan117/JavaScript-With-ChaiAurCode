@@ -59,6 +59,7 @@ console.log(`9. endsWith("khan") : ${gameName.endsWith("khan")} => check end wit
 console.log(`10. fontcolor("red") : ${gameName.fontcolor("red")} => make text red`);
 console.log(`11. fontsize(5) : ${gameName.fontsize(5)} => make text font size 5`);
 console.log(`12. italics() : ${gameName.italics()} => make text italics`);
+console.log(`13. lastIndexOf("h") : ${gameName.lastIndexOf("h")} => get last index of h`);
 
 
 
