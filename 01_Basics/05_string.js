@@ -47,3 +47,5 @@ length: 5
 [[PrimitiveValue]]: "hello"
 */
 
+console.log(`1. anchor("www.sahil.com") : ${gameName.anchor("www.sahil.com")} => make a link with a # tag`); 
+
