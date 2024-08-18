@@ -48,4 +48,5 @@ length: 5
 */
 
 console.log(`1. anchor("www.sahil.com") : ${gameName.anchor("www.sahil.com")} => make a link with a # tag`); 
+console.log(`2. big() : ${gameName.big()} => make text big`);
 
