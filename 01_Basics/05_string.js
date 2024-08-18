@@ -62,6 +62,7 @@ console.log(`12. italics() : ${gameName.italics()} => make text italics`);
 console.log(`13. lastIndexOf("h") : ${gameName.lastIndexOf("h")} => get last index of h`);
 console.log(`14. length : ${gameName.length} => get length`);
 console.log(`15. link("www.sahil.com") : ${gameName.link("www.sahil.com")} => make a link with a # tag`);
+console.log(`16. normalize() : ${gameName.normalize()} => make text normalize`);
 
 
 
