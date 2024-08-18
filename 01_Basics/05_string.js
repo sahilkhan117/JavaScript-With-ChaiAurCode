@@ -51,6 +51,7 @@ console.log(`1. anchor("www.sahil.com") : ${gameName.anchor("www.sahil.com")} =>
 console.log(`2. big() : ${gameName.big()} => make text big`);
 console.log(`3. blink() : ${gameName.blink()} => make text blink`);
 console.log(`4. bold() : ${gameName.bold()} => make text bold`);
+console.log(`5. charAt(3) : ${gameName.charAt(3)} => get character at index 3`);
 
 
 
