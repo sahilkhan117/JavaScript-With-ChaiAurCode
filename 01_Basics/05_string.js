@@ -61,6 +61,7 @@ console.log(`11. fontsize(5) : ${gameName.fontsize(5)} => make text font size 5`
 console.log(`12. italics() : ${gameName.italics()} => make text italics`);
 console.log(`13. lastIndexOf("h") : ${gameName.lastIndexOf("h")} => get last index of h`);
 console.log(`14. length : ${gameName.length} => get length`);
+console.log(`15. link("www.sahil.com") : ${gameName.link("www.sahil.com")} => make a link with a # tag`);
 
 
 
