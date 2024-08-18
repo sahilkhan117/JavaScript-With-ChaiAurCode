@@ -56,6 +56,7 @@ console.log(`6. charCodeAt(2) : ${gameName.charCodeAt(2)} => get character code 
 console.log(`7. codePointAt(1) : ${gameName.codePointAt(1)} => get code point at index 1`);
 console.log(`8. concat(" ", "world") : ${gameName.concat(" ", "world")} => concatinate string`);
 console.log(`9. endsWith("khan") : ${gameName.endsWith("khan")} => check end with khan`);
+console.log(`10. fontcolor("red") : ${gameName.fontcolor("red")} => make text red`);
 
 
 
