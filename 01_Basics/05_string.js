@@ -54,6 +54,7 @@ console.log(`4. bold() : ${gameName.bold()} => make text bold`);
 console.log(`5. charAt(3) : ${gameName.charAt(3)} => get character at index 3`);
 console.log(`6. charCodeAt(2) : ${gameName.charCodeAt(2)} => get character code at index 2`);
 console.log(`7. codePointAt(1) : ${gameName.codePointAt(1)} => get code point at index 1`);
+console.log(`8. concat(" ", "world") : ${gameName.concat(" ", "world")} => concatinate string`);
 
 
 
