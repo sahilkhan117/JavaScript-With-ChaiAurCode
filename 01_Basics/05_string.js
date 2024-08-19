@@ -79,6 +79,7 @@ console.log(`30. toUpperCase() : ${gameName.toUpperCase()} => make text toUpperC
 console.log(`31. trim() : ${gameName.trim()} => make text trim`);
 console.log(`32. trimStart() : ${gameName.trimStart()} => make text trimStart`);
 console.log(`33. trimEnd() : ${gameName.trimEnd()} => make text trimEnd`);
+console.log(`34. valueOf() : ${gameName.valueOf()} => make text valueOf`);
 
 
 
