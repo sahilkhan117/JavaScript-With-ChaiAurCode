@@ -70,6 +70,7 @@ console.log(`21. strike() : ${gameName.strike()} => make text strike`);
 console.log(`22. sub() : ${gameName.sub()} => make text sub`);
 console.log(`23. substr() : ${gameName.substr()} => make text substr`);
 console.log(`24. substring() : ${gameName.substring()} => make text substring`);
+console.log(`25. sup() : ${gameName.sup()} => make text sup`);
 
 
 
