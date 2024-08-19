@@ -77,6 +77,7 @@ console.log(`28. toLowerCase() : ${gameName.toLowerCase()} => make text toLowerC
 console.log(`29. toString() : ${gameName.toString()} => make text toString`);
 console.log(`30. toUpperCase() : ${gameName.toUpperCase()} => make text toUpperCase`);
 console.log(`31. trim() : ${gameName.trim()} => make text trim`);
+console.log(`32. trimStart() : ${gameName.trimStart()} => make text trimStart`);
 
 
 
