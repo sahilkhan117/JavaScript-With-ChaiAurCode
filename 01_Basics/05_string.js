@@ -82,6 +82,4 @@ console.log(`33. trimEnd() : ${gameName.trimEnd()} => make text trimEnd`);
 console.log(`34. valueOf() : ${gameName.valueOf()} => make text valueOf`);
 console.log(`35. toString() : ${gameName.toString()} => make text toString`);
 
-
-
-
+// **********END
