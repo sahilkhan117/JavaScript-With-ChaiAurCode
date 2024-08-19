@@ -67,6 +67,7 @@ console.log(`17. repeat(3) : ${gameName.repeat(3)} => make text repeat 3 times`)
 console.log(`18. small() : ${gameName.small()} => make text small`);
 console.log(`20. split("_") : ${gameName.split("_")} => split string with _`);
 console.log(`21. strike() : ${gameName.strike()} => make text strike`);
+console.log(`22. sub() : ${gameName.sub()} => make text sub`);
 
 
 
