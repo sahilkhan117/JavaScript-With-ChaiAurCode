@@ -31,3 +31,6 @@ const hun = 1000000;
 // console.log(Number.MAX_SAFE_INTEGER);
 // console.log(Number.EPSILON); // 2.220446049250313e-16
 
+
+// 🧮✖️➕➖➗🟰 *********** Math **************
+
