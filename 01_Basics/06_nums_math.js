@@ -27,3 +27,5 @@ const hun = 1000000;
 // console.log(hun.toLocaleString("en-IN")); // make more readible with commas (default US)
 
 // ⭐⭐ just like this we have Number datatype to determine many more numbers  values
+
+// console.log(Number.MAX_SAFE_INTEGER);
