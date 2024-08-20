@@ -26,3 +26,4 @@ const othNum = 23.8966;
 const hun = 1000000;
 // console.log(hun.toLocaleString("en-IN")); // make more readible with commas (default US)
 
+// ⭐⭐ just like this we have Number datatype to determine many more numbers  values
