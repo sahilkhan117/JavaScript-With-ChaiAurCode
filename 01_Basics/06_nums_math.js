@@ -14,3 +14,5 @@ Number {100}
     toString: ƒ toString()
     valueOf: ƒ valueOf()
 */
+
+// console.log(balance.toString());
