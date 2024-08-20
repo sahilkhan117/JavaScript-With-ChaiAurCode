@@ -29,3 +29,5 @@ const hun = 1000000;
 // ⭐⭐ just like this we have Number datatype to determine many more numbers  values
 
 // console.log(Number.MAX_SAFE_INTEGER);
+// console.log(Number.EPSILON); // 2.220446049250313e-16
+
