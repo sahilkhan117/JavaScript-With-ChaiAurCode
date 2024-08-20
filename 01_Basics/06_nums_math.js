@@ -35,3 +35,5 @@ const hun = 1000000;
 // 🧮✖️➕➖➗🟰 *********** Math **************
 
 // console.log(Math);
+// console.log(Math.abs(-7)); // 7
+
