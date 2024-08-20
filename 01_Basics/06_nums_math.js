@@ -23,3 +23,6 @@ Number {100}
 const othNum = 23.8966;
 // console.log(othNum.toPrecision(3)); // round off to 3 position
 
+const hun = 1000000;
+// console.log(hun.toLocaleString("en-IN")); // make more readible with commas (default US)
+
