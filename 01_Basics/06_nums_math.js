@@ -37,4 +37,5 @@ const hun = 1000000;
 // console.log(Math);
 // console.log(Math.abs(-7)); // 7
 // console.log(Math.round(4.5)); // 5
+// console.log(Math.ceil(4.2)); // 5
 
