@@ -20,3 +20,5 @@ Number {100}
 // console.log(balance.toFixed(2)); // best of decimal points
 
 
+
+const othNum = 23.8966;
