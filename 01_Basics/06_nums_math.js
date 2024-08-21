@@ -43,3 +43,5 @@ const hun = 1000000;
 // console.log(Math.max(569,67,56,36,609,73,152));
 
 
+// console.log(Math.random()); //⭐ betwee 0 and 1
+
