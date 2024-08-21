@@ -56,3 +56,5 @@ let maxi = 6;
 
 const min = 1;
 const max = 6;
+
+function checkRandom(max, min) {
