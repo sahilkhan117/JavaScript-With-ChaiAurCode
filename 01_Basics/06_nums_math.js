@@ -61,3 +61,25 @@ function checkRandom(max, min) {
     let v1 = (v2 = v3 = v4 = v5 = v6 = 0);
     for (let z = 0; z < 100; z++) {
         x = Math.floor(Math.random() * (max - min + 1)) + min;
+        switch (x) {
+			case 1:
+				v1++;
+				break;
+			case 2:
+				v2++;
+				break;
+			case 3:
+				v3++;
+				break;
+			case 4:
+				v4++;
+				break;
+			case 5:
+				v5++;
+				break;
+			case 6:
+				v6++;
+				break;
+			default:
+				break;
+		}
