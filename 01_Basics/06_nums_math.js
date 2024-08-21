@@ -46,3 +46,9 @@ const hun = 1000000;
 // console.log(Math.random()); //⭐ betwee 0 and 1
 // console.log(Math.random()*10 + 1);
 
+// use math.random in a range
+let mini = 1;
+let maxi = 6;
+// Generalized formula 🧮⭐👇🏻👇🏻
+// console.log(Math.floor(Math.random() * (max - min + 1)) + min);
+
