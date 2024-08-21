@@ -40,4 +40,6 @@ const hun = 1000000;
 // console.log(Math.ceil(4.2)); // 5
 // console.log(Math.floor(5.9)); // 5
 // console.log(Math.min(569,67,56,36,609,73,152));
+// console.log(Math.max(569,67,56,36,609,73,152));
+
 
