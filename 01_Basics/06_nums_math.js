@@ -59,3 +59,4 @@ const max = 6;
 
 function checkRandom(max, min) {
     let v1 = (v2 = v3 = v4 = v5 = v6 = 0);
+    for (let z = 0; z < 100; z++) {
