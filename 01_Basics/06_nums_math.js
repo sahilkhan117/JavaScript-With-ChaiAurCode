@@ -44,4 +44,5 @@ const hun = 1000000;
 
 
 // console.log(Math.random()); //⭐ betwee 0 and 1
+// console.log(Math.random()*10 + 1);
 
