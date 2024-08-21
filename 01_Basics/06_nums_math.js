@@ -83,3 +83,13 @@ function checkRandom(max, min) {
 			default:
 				break;
 		}
+    }
+	return {
+		1: v1,
+		2: v2,
+		3: v3,
+		4: v4,
+		5: v5,
+		6: v6,
+		sum: v1 + v2 + v3 + v4 + v5 + v6,
+	};
