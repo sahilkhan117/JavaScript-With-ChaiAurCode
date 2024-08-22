@@ -16,3 +16,5 @@ console.log(myDate.toUTCString()); // Fri, 16 Aug 2024 18:03:43 GMT
 
 
 let ownDate = new Date(2023, 2, 14, 1, 59, 6, 78); // (year, month_Index [start with 0], date, hour, mins, sec, milisec)
+// let twodate = new Date("2023-01-14") // month is real (change structure)
+
