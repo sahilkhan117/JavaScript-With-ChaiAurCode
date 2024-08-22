@@ -28,3 +28,4 @@ console.log(ownDate.getTime()); // return timestamp value
 let newDate = new Date()
 console.log(newDate);
 console.log(newDate.getMonth() + 1); // ⚠️return month index start with 0 so we use "+1"
+console.log(newDate.getDay());
