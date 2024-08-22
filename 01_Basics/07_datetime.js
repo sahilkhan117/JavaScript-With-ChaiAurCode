@@ -9,3 +9,4 @@ console.log(myDate.toDateString()); // Fri Aug 16 2024
 console.log(myDate.toTimeString()); // 23:33:43 GMT+0530 (India Standard Time)
 console.log(myDate.toISOString()); // same as mydate
 console.log(myDate.toJSON()); // same as mydate
+console.log(myDate.toLocaleDateString()); // 16/8/2024
