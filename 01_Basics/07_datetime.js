@@ -29,3 +29,14 @@ let newDate = new Date()
 console.log(newDate);
 console.log(newDate.getMonth() + 1); // ⚠️return month index start with 0 so we use "+1"
 console.log(newDate.getDay());
+
+// custmize each data for printing
+console.log(
+	Date().toLocaleString("default", {
+		weekday: "long",
+        // dateStyle:  "full",
+        // formatMatcher : "best fit" 
+        // timeStyle: "short",
+        // timeZoneName: "long"   
+	})
+);
