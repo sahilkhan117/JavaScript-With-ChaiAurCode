@@ -20,3 +20,5 @@ let ownDate = new Date(2023, 2, 14, 1, 59, 6, 78); // (year, month_Index [start 
 
 let myTimeStamp = Date.now();
 // current mili-seconds time through (1, jan 1970 UTC)
+console.log(myTimeStamp); // 1724295972449
+
