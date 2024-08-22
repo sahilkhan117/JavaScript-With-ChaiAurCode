@@ -26,3 +26,5 @@ console.log(ownDate.getTime()); // return timestamp value
 
 
 let newDate = new Date()
+console.log(newDate);
+console.log(newDate.getMonth() + 1);
