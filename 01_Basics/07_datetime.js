@@ -24,3 +24,5 @@ console.log(myTimeStamp); // 1724295972449
 
 console.log(ownDate.getTime()); // return timestamp value
 
+
+let newDate = new Date()
