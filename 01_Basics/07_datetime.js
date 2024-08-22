@@ -22,3 +22,5 @@ let myTimeStamp = Date.now();
 // current mili-seconds time through (1, jan 1970 UTC)
 console.log(myTimeStamp); // 1724295972449
 
+console.log(ownDate.getTime()); // return timestamp value
+
