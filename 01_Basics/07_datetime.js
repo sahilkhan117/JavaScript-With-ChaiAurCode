@@ -19,3 +19,4 @@ let ownDate = new Date(2023, 2, 14, 1, 59, 6, 78); // (year, month_Index [start 
 // let twodate = new Date("2023-01-14") // month is real (change structure)
 
 let myTimeStamp = Date.now();
+// current mili-seconds time through (1, jan 1970 UTC)
