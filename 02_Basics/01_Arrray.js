@@ -10,3 +10,4 @@ const myArr = [10, "sahil", true, 1, 2, 3]
 // myArr.push(10) // insert at last position
 // myArr.push("hi")
 
+// myArr.pop() // delete last elem
