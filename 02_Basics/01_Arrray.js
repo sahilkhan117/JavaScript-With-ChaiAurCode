@@ -19,3 +19,6 @@ myArr.unshift("m") // insert at first position
 // console.log(myArr.indexOf(true)); // index of value
 
 const newArr = myArr.join()
+// console.log(myArr);
+// console.log(newArr);
+// console.log(typeof newArr); // string
