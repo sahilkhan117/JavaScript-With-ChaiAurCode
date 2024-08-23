@@ -35,6 +35,13 @@ const myn2 = myArr.splice(1,3) // 1 - 3rd index move data (deleted frem first)
 console.log(myn2);
 console.log('C ', myArr);
 
+/*
+A  [ 'm', 'sahil', true, 1, 2, 3 ]
+[ 'sahil', true ]
+B  [ 'm', 'sahil', true, 1, 2, 3 ]
+[ 'sahil', true, 1 ]
+C  [ 'm', 2, 3 ]
+*/
 
 /* ⭐⭐⭐ Arrey Methods
 
