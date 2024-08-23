@@ -83,8 +83,7 @@ Symbol(Symbol.unscopables): {a: rue, copyWithi: rue, entrie: rue, fil: rue, fin:
 */
 
 
-
-
+// ⭐🌟⭐🌟⭐ commented methods are HIGH order they accept function at parameter
 console.log(`1. at() => ${myArr.at(2)} : returns element of index`);
 console.log(`2. concat() => ${myArr.concat([1,2,3,4,5])} : concatenate arrey`);
 console.log(`3. constructor() => ${myArr.constructor} : returns constructor of array`);
