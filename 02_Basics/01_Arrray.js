@@ -14,3 +14,5 @@ const myArr = [10, "sahil", true, 1, 2, 3]
 
 myArr.shift() // delete first position
 myArr.unshift("m") // insert at first position
+
+// console.log(myArr.includes(2)); // true / false
