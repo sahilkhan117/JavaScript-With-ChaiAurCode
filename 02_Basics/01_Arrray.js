@@ -125,3 +125,34 @@ console.log(`38. unshift() => ${myArr.unshift()} : return length of array`);
 console.log(`39. values() => ${myArr.values()} : return iterator of values`);
 console.log(`40. with() => ${myArr.with()} : return array after with`);
 
+/*
+1. at() => 3 : returns element of index
+2. concat() => m,2,3,1,2,3,4,5 : concatenate arrey
+3. constructor() => function Array() { [native code] } : returns constructor of array
+4. copyWithin() => 2,2,3 : copy within
+5. entries() => [object Array Iterator] : return iterator of array
+6. every() => function every() { [native code] } : return true if every element is true
+7. fill() => 2,2,2 : fill array with value
+13. flat() => 2,2,2 : return array after flat
+16. includes() => false : return true if element is present
+17. indexOf() => -1 : return index of element
+18. join() => 2,2,2 : return string after join
+19. keys() => [object Array Iterator] : return iterator of keys
+20. lastIndexOf() => -1 : return index of last element
+21. length => 3 : return length of array
+23. pop() => 2 : return last element
+24. push() => 2 : return length of array
+27. reverse() => 2,2 : return array after reverse
+28. shift() => 2 : return first element
+29. slice() => 2 : return array after slice
+31. sort() => 2 : return array after sort
+32. splice() =>  : return array after splice
+33. toLocaleString() => 2 : return array after toLocaleString
+34. toReversed() => 2 : return array after toReversed
+35. toSorted() => 2 : return array after toSorted
+36. toSpliced() => 2 : return array after toSpliced
+37. toString() => 2 : return array after toString
+38. unshift() => 1 : return length of array
+39. values() => [object Array Iterator] : return iterator of values
+40. with() =>  : return array after with
+*/
