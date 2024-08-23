@@ -13,3 +13,4 @@ const myArr = [10, "sahil", true, 1, 2, 3]
 // myArr.pop() // delete last elem
 
 myArr.shift() // delete first position
+myArr.unshift("m") // insert at first position
