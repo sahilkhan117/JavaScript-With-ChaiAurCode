@@ -34,3 +34,51 @@ console.log('B ', myArr);
 const myn2 = myArr.splice(1,3) // 1 - 3rd index move data (deleted frem first)
 console.log(myn2);
 console.log('C ', myArr);
+
+
+/* ⭐⭐⭐ Arrey Methods
+
+at: ƒ at()
+concat: ƒ concat()
+constructor: ƒ Array()
+copyWithin: ƒ copyWithin()
+entries: ƒ entries()
+every: ƒ every()
+fill: ƒ fill()
+filter: ƒ filter()
+find: ƒ find()
+findIndex: ƒ findIndex()
+findLast: ƒ findLast()
+findLastIndex: ƒ findLastIndex()
+flat: ƒ flat()
+flatMap: ƒ flatMap()
+forEach: ƒ forEach()
+includes: ƒ includes()
+indexOf: ƒ indexOf()
+join: ƒ join()
+keys: ƒ keys()
+lastIndexOf: ƒ lastIndexOf()
+length: 0
+map: ƒ map()
+pop: ƒ pop()
+push: ƒ push()
+reduce: ƒ reduce()
+reduceRight: ƒ reduceRight()
+reverse: ƒ reverse()
+shift: ƒ shift()
+slice: ƒ slice()
+some: ƒ some()
+sort: ƒ sort()
+splice: ƒ splice()
+toLocaleString: ƒ toLocaleString()
+toReversed: ƒ toReversed()
+toSorted: ƒ toSorted()
+toSpliced: ƒ toSpliced()
+toString: ƒ toString()
+unshift: ƒ unshift()
+values: ƒ values()
+with: ƒ with()
+Symbol(Symbol.iterator): ƒ values()
+Symbol(Symbol.unscopables): {a: rue, copyWithi: rue, entrie: rue, fil: rue, fin: rue, …}
+*/
+
