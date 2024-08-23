@@ -17,3 +17,5 @@ myArr.unshift("m") // insert at first position
 
 // console.log(myArr.includes(2)); // true / false
 // console.log(myArr.indexOf(true)); // index of value
+
+const newArr = myArr.join()
