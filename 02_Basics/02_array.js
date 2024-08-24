@@ -16,3 +16,4 @@ const all_heros = [...MCU_heros, ...DCU_heros]
 
 
 const sam = [1,2,3,[4,5,6], 7,[4,5,[7,8]]] //Mix arrey
+const real_sam = sam.flat(Infinity)
