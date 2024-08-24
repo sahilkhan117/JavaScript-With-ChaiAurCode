@@ -24,3 +24,5 @@ const real_sam = sam.flat(Infinity)
 
 console.log(Array.isArray("sahil")) // false
 console.log(Array.from("sahil")); // [ 's', 'a', 'h', 'i', 'l' ]
+
+console.log(Array.from({name : "sahil"})); // ❓ [] because cant identify to take keys or value
