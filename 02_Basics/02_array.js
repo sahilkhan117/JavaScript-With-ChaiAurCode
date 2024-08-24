@@ -11,3 +11,4 @@ const DCU_heros = ["SuperMan", "Batman", "Flash"]
 // console.log(all_heros); // (proper format 👍🏻👍🏻)
 
 // ⭐⭐ Spread Oprator ⭐⭐
+const all_heros = [...MCU_heros, ...DCU_heros]
