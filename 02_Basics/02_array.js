@@ -21,3 +21,5 @@ const real_sam = sam.flat(Infinity)
 
 
 // *************** Array DATATYPE ****************
+
+console.log(Array.isArray("sahil")) // false
