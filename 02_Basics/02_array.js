@@ -9,3 +9,5 @@ const DCU_heros = ["SuperMan", "Batman", "Flash"]
 
 // let all_heros = MCU_heros.concat(DCU_heros) // [ 'Iron-Man', 'Spider-Man', 'Thor', 'SuperMan', 'Batman', 'Flash' ] 
 // console.log(all_heros); // (proper format 👍🏻👍🏻)
+
+// ⭐⭐ Spread Oprator ⭐⭐
