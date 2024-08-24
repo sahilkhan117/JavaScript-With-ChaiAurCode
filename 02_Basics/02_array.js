@@ -13,3 +13,6 @@ const DCU_heros = ["SuperMan", "Batman", "Flash"]
 // ⭐⭐ Spread Oprator ⭐⭐
 const all_heros = [...MCU_heros, ...DCU_heros]
 // console.log(all_heros); // (best practice format ⭐⭐👍🏻👍🏻)
+
+
+const sam = [1,2,3,[4,5,6], 7,[4,5,[7,8]]] //Mix arrey
