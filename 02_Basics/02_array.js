@@ -26,3 +26,7 @@ console.log(Array.isArray("sahil")) // false
 console.log(Array.from("sahil")); // [ 's', 'a', 'h', 'i', 'l' ]
 
 console.log(Array.from({name : "sahil"})); // ❓ [] because cant identify to take keys or value
+
+// make instance of arrey
+let s1 =100, s2 =200,s3 =300
+console.log(Array.of(s1, s2, s3)); // [ 100, 200, 300 ]
