@@ -163,3 +163,5 @@ console.log(`40. with() => ${myArr.with()} : return array after with`);
 39. values() => [object Array Iterator] : return iterator of values
 40. with() =>  : return array after with
 */
+
+// ************END
