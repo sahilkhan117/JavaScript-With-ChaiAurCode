@@ -14,3 +14,7 @@ const jsUser = {
     isLaggedIn : false,
     lastLoginDays : ['Monday', 'Saturday']
 }
+
+// Access
+// console.log(jsUser.email) // 1️⃣
+// console.log(jsUser["email"]) // 2️⃣
