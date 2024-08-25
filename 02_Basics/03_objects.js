@@ -3,6 +3,8 @@
 
 // object literal
 
+const mySym = Symbol("key1")
+
 const jsUser = {
     name : "Sahil", // system process as "name"
     "demo name": "demo val", // take as (demo or "demo")
@@ -22,3 +24,5 @@ const jsUser = {
 // ⭐ access "demo" best idea
 // console.log(jsUser.demo name); // ❌❌❌❌❌ not valid
 // console.log(jsUser["demo name"]);
+
+// 🔣🔣 Access Symbol in Object
