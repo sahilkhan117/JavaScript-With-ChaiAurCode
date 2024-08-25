@@ -21,4 +21,4 @@ const jsUser = {
 
 // ⭐ access "demo" best idea
 // console.log(jsUser.demo name); // ❌❌❌❌❌ not valid
-
+// console.log(jsUser["demo name"]);
