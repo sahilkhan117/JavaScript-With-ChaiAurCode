@@ -20,3 +20,5 @@ const jsUser = {
 // console.log(jsUser["email"]) // 2️⃣
 
 // ⭐ access "demo" best idea
+// console.log(jsUser.demo name); // ❌❌❌❌❌ not valid
+
