@@ -36,3 +36,4 @@ jsUser.email = "sahil@ms.com"
 // Object.freeze(jsUser) // 🔒 lock the obj 
 
 jsUser.email = "sahil@chatgpt.com" // not apply 🧊🥶
+// console.log(jsUser.email) // sahil@ms.com
