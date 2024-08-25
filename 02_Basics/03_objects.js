@@ -32,3 +32,5 @@ const jsUser = {
 
 // ****** modify 
 jsUser.email = "sahil@ms.com"
+
+// Object.freeze(jsUser) // 🔒 lock the obj 
