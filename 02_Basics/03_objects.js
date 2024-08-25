@@ -5,7 +5,7 @@
 
 const jsUser = {
     name : "Sahil", // system process as "name"
-    // "demo name": "demo val", // take as (demo or "demo")
+    "demo name": "demo val", // take as (demo or "demo")
     // use symbol 🔣
     // [mySym] : "my Key 1",
     age: 18,
@@ -18,3 +18,5 @@ const jsUser = {
 // Access
 // console.log(jsUser.email) // 1️⃣
 // console.log(jsUser["email"]) // 2️⃣
+
+// ⭐ access "demo" best idea
