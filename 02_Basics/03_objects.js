@@ -29,3 +29,6 @@ const jsUser = {
 // console.log(jsUser.mySym); // ⚠️⚠️ acessed but not as the symbol as the string
 // console.log(jsUser[mySym]); // 👍🏻👍🏻 right approach
 // console.table(jsUser);
+
+// ****** modify 
+jsUser.email = "sahil@ms.com"
