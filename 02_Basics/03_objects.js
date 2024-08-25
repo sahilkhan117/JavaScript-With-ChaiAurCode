@@ -37,3 +37,8 @@ jsUser.email = "sahil@ms.com"
 
 jsUser.email = "sahil@chatgpt.com" // not apply 🧊🥶
 // console.log(jsUser.email) // sahil@ms.com
+
+//   function
+jsUser.greeting = function(){
+    return (`Hello Js User, ${this.name}`);
+}
