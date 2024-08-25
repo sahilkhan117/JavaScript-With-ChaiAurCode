@@ -42,3 +42,5 @@ jsUser.email = "sahil@chatgpt.com" // not apply 🧊🥶
 jsUser.greeting = function(){
     return (`Hello Js User, ${this.name}`);
 }
+
+console.log(jsUser.greeting())
