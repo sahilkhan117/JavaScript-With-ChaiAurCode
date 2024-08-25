@@ -38,6 +38,10 @@ jsUser.email = "sahil@ms.com"
 jsUser.email = "sahil@chatgpt.com" // not apply 🧊🥶
 // console.log(jsUser.email) // sahil@ms.com
 
+// ACCESS ARRAY IN OBJECT
+console.log(jsUser.lastLoginDays);
+// [ 'Monday', 'Saturday' ]
+
 //   function
 jsUser.greeting = function(){
     return (`Hello Js User, ${this.name}`);
