@@ -87,5 +87,6 @@ console.log(`7. valueOf(): ${tinUser.valueOf()} : check available property`);
 5. toLocaleString(): [object Object] : check available property
 6. toString(): [object Object] : check available property
 7. valueOf(): [object Object] : check available property
-
 */
+
+// ************ END
