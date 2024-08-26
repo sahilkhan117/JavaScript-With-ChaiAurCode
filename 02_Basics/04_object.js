@@ -41,3 +41,6 @@ const users = [
         email : "p@g.com"
     },
 ]
+
+// access
+console.log(users[1].email);
