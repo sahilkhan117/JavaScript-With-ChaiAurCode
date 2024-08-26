@@ -47,3 +47,6 @@ console.log(users[1].email);
 
 // EXTRACTING (🔑keys, ➡️value, 🔣entries)
 console.log(Object.keys(tinUser)); // [ 'id', 'name', 'isLaggedIn' ]
+console.log(Object.values(tinUser)); // [ '123abc', 'Sah', false ]
+console.log(Object.entries(tinUser)); // [ [ 'id', '123abc' ], [ 'name', 'Sah' ], [ 'isLaggedIn', false ] ]
+
