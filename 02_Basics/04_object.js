@@ -27,3 +27,17 @@ const obj2 = {3:"c", 4:"d"}
 const obj3 = {...obj1, ...obj2} //  BEST APPROACH 🤩🌟⭐
 
 // API CALLING 📞📞
+const users = [
+    {
+        id : 1,
+        email : "m@g.com"
+    },
+    {
+        id : 2,
+        email : "k@g.com"
+    },
+    {
+        id : 3,
+        email : "p@g.com"
+    },
+]
