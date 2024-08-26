@@ -44,3 +44,6 @@ const users = [
 
 // access
 console.log(users[1].email);
+
+// EXTRACTING (🔑keys, ➡️value, 🔣entries)
+console.log(Object.keys(tinUser)); // [ 'id', 'name', 'isLaggedIn' ]
