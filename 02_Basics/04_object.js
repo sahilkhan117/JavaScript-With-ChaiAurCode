@@ -15,3 +15,5 @@ const regularUser  = {
         }
     }
 }
+
+console.log(regularUser.fullname.userFullName.firstName); // use .fullname❓. for protection on value
