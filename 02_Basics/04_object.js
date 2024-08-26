@@ -70,3 +70,11 @@ console.log(tinUser.hasOwnProperty('isLaggedIn')); // true
     get __proto__: ƒ __proto__()   
     set __proto__: ƒ __proto__()   
 */
+
+console.log(`1. constructor(): ${tinUser.constructor()} : returns constructor of object`);
+console.log(`2. hasOwnProperty(): ${tinUser.hasOwnProperty('isLaggedIn')} : check available property`);
+console.log(`3. isPrototypeOf(): ${tinUser.isPrototypeOf(users)} : check available property`);
+console.log(`4. propertyIsEnumerable(): ${tinUser.propertyIsEnumerable('isLaggedIn')} : check available property`);
+console.log(`5. toLocaleString(): ${tinUser.toLocaleString()} : check available property`);
+console.log(`6. toString(): ${tinUser.toString()} : check available property`);
+console.log(`7. valueOf(): ${tinUser.valueOf()} : check available property`);
