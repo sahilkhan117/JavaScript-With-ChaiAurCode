@@ -17,3 +17,7 @@ const regularUser  = {
 }
 
 console.log(regularUser.fullname.userFullName.firstName); // use .fullname❓. for protection on value
+
+// combine obj ➕
+const obj1 = {1:"a", 2:"b"}
+const obj2 = {3:"c", 4:"d"}
