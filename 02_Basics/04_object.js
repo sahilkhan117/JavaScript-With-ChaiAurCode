@@ -1,0 +1,1 @@
+// const tinuser = new Object() // singleton 1️⃣
