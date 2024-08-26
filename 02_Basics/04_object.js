@@ -78,3 +78,14 @@ console.log(`4. propertyIsEnumerable(): ${tinUser.propertyIsEnumerable('isLagged
 console.log(`5. toLocaleString(): ${tinUser.toLocaleString()} : check available property`);
 console.log(`6. toString(): ${tinUser.toString()} : check available property`);
 console.log(`7. valueOf(): ${tinUser.valueOf()} : check available property`);
+
+/*
+1. constructor(): [object Object] : returns constructor of object
+2. hasOwnProperty(): true : check available property
+3. isPrototypeOf(): false : check available property
+4. propertyIsEnumerable(): true : check available property
+5. toLocaleString(): [object Object] : check available property
+6. toString(): [object Object] : check available property
+7. valueOf(): [object Object] : check available property
+
+*/
