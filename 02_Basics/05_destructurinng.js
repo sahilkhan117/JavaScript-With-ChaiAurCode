@@ -3,3 +3,5 @@ const course = {
     prize : "999",
     CourseInstructor : "Hitesh"
 }
+
+// DE-STRUCTURING ⛓️‍💥💥
