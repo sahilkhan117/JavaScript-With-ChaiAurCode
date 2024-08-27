@@ -6,3 +6,4 @@ const course = {
 
 // DE-STRUCTURING ⛓️‍💥💥
 // course.CourseInstructor => "Hitesh"
+const {CourseInstructor: ins} = course // ◽ value saved in a variable
