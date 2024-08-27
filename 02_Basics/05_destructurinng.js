@@ -5,3 +5,4 @@ const course = {
 }
 
 // DE-STRUCTURING ⛓️‍💥💥
+// course.CourseInstructor => "Hitesh"
