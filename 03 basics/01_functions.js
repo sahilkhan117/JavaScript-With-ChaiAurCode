@@ -13,3 +13,12 @@ function add(a, b){
 }
 let res = add(3,"a") // 🟰 res has 5 (⚠️ datatype problem, defalt parameter)
 console.log("Result:", res);
+
+/*
+function loggedInUserMsg(username){
+    // if(username == undefined){
+    if(!username){ // !username => !(false if not given or empty) => ✅true(run the if block ⚠️warning mesg)
+        return `please Enter a username`
+    }
+    return `${username} just logged in.`
+}
