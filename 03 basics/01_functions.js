@@ -12,6 +12,4 @@ function add(a, b){
     return a + b
 }
 let res = add(3,"a") // 🟰 res has 5 (⚠️ datatype problem, defalt parameter)
-
-
-// hi
+console.log("Result:", res);
