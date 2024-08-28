@@ -28,3 +28,4 @@ console.log(loggedInUserMsg()) // give warn msg
 function loggedInUserMsg(username = "MS"){
     return `${username} just logged in.`
 }
+console.log(loggedInUserMsg()) // MS
