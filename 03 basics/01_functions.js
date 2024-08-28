@@ -23,3 +23,4 @@ function loggedInUserMsg(username){
     return `${username} just logged in.`
 }
 console.log(loggedInUserMsg()) // give warn msg
+*/ // ⏩ to solve this (default parameter)
