@@ -9,3 +9,6 @@ const user = {
 	username: "SAHIL",
 	prices: 199, // is changes price to prices
 };
+function handleobj(anyobj) {
+	console.log(`Username is ${anyobj.username} and price is ${anyobj.price}`);
+}
