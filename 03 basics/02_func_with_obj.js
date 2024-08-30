@@ -5,3 +5,7 @@ function calculateprice(...n1) {
 console.log(calculateprice(11, 2, 73, 873));
 
 // HANDLING OBJECT
+const user = {
+	username: "SAHIL",
+	prices: 199, // is changes price to prices
+};
