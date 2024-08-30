@@ -3,3 +3,5 @@ function calculateprice(...n1) {
 	return n1;
 }
 console.log(calculateprice(11, 2, 73, 873));
+
+// HANDLING OBJECT
