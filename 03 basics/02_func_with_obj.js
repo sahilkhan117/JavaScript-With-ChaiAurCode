@@ -15,3 +15,5 @@ function handleobj(anyobj) {
 handleobj(user); // Username is SAHIL and price is undefined (⚠️ access problem must use conditions ?)
 
 handleobj({ username: "SAHIL", price: 1199 }); // psdded as obj
+
+// HANDLE ARRAY
