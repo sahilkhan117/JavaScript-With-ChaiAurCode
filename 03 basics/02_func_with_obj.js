@@ -12,3 +12,4 @@ const user = {
 function handleobj(anyobj) {
 	console.log(`Username is ${anyobj.username} and price is ${anyobj.price}`);
 }
+handleobj(user); // Username is SAHIL and price is undefined (⚠️ access problem must use conditions ?)
