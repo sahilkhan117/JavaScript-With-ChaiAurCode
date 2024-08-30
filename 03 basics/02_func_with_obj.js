@@ -18,3 +18,6 @@ handleobj({ username: "SAHIL", price: 1199 }); // psdded as obj
 
 // HANDLE ARRAY
 const myarr = [200, 400, 500, 700];
+function ret2ndval(anyarr) {
+	return anyarr[1];
+}
