@@ -22,3 +22,4 @@ function ret2ndval(anyarr) {
 	return anyarr[1];
 }
 console.log(ret2ndval(myarr)); // pass arr variable
+console.log(ret2ndval([1, 2, 3, 4, 5, 6, 7, 8])); // pass arr as instance
