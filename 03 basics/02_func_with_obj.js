@@ -21,3 +21,4 @@ const myarr = [200, 400, 500, 700];
 function ret2ndval(anyarr) {
 	return anyarr[1];
 }
+console.log(ret2ndval(myarr)); // pass arr variable
