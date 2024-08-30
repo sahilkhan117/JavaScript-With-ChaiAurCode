@@ -17,3 +17,4 @@ handleobj(user); // Username is SAHIL and price is undefined (⚠️ access prob
 handleobj({ username: "SAHIL", price: 1199 }); // psdded as obj
 
 // HANDLE ARRAY
+const myarr = [200, 400, 500, 700];
