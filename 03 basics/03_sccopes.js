@@ -5,5 +5,8 @@ const b  = 20 // constant in scope only
 var c = 30 //⚠️ 💥💥scope - biscope se koi matlab nahi
 
 if (true) {
-    
+    let a = 100
+    const b = 200
+    var c = 300
+
 }
