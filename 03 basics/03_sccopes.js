@@ -17,3 +17,11 @@ if (true) {
 console.log("a", a); // diff as inner (😎😎🤩best to use)
 console.log("b", b);
 console.log("c", c); // ⚠️⚠️ this changed by inner also
+/*
+INNER a : 100
+INNER a : 200
+INNER a : 300
+a 10
+b 20
+c 300
+*/
