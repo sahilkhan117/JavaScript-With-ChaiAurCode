@@ -9,4 +9,5 @@ if (true) {
     const b = 200
     var c = 300
 
+    console.log("INNER a :", a);
 }
