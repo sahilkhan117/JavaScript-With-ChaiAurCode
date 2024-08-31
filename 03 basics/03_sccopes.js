@@ -1,1 +1,3 @@
 // {} => used as scope with any if, for, func ,etc...
+
+let a = 10 // 👍🏻 in the scope only
