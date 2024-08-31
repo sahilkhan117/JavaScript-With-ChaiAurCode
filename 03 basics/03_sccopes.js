@@ -15,3 +15,4 @@ if (true) {
 }
 
 console.log("a", a); // diff as inner (😎😎🤩best to use)
+console.log("b", b);
