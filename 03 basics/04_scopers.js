@@ -14,3 +14,4 @@ function one() {
 
 	two();
 }
+// one()
