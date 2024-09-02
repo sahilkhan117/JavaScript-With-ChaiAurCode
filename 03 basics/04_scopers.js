@@ -38,3 +38,10 @@ console.log(add1(3)) // ✅ access anywhere as func
 function add1 (a) {
     return a + 1
 }
+
+// 2️⃣
+// console.log(ADDTWO(3)) // ❌ not access because as variable
+const ADDTWO = function add2 (a) {
+    return a + 2
+}
+console.log(ADDTWO(6))  // ✅ as variable
