@@ -33,3 +33,8 @@ if (true){
 
 // ******************  INTRESTING ********************
 // to type of func storing (scoping)
+console.log(add1(3)) // ✅ access anywhere as func
+
+function add1 (a) {
+    return a + 1
+}
