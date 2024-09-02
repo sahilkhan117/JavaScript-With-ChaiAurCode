@@ -18,3 +18,12 @@ function one() {
 
 
 // IN NESTED IF OR FOR LOOP
+
+if (true){
+    const username = "sahil"
+
+    if (username === "sahil") {
+        const web = " YT"
+        console.log(username + web); // ✅
+    }
+}
