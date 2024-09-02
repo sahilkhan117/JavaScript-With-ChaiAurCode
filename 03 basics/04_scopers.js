@@ -26,4 +26,5 @@ if (true){
         const web = " YT"
         console.log(username + web); // ✅
     }
+    // console.log(web); // ❌ out of scope
 }
