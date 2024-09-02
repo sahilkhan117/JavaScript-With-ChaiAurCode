@@ -32,3 +32,4 @@ if (true){
 
 
 // ******************  INTRESTING ********************
+// to type of func storing (scoping)
