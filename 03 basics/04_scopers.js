@@ -4,3 +4,6 @@
 // IN NESTED FUNC
 function one (){
     const username = "sahil"
+
+    function two(){
+        const website = "YT"
