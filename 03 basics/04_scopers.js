@@ -7,3 +7,6 @@ function one (){
 
     function two(){
         const website = "YT"
+
+        console.log(username); // ✅ access
+    }
