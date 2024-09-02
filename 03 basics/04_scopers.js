@@ -28,3 +28,4 @@ if (true){
     }
     // console.log(web); // ❌ out of scope
 }
+// console.log(username); // ❌ out of scope
