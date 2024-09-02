@@ -45,3 +45,5 @@ const ADDTWO = function add2 (a) {
     return a + 2
 }
 console.log(ADDTWO(6))  // ✅ as variable
+
+// *********** END
