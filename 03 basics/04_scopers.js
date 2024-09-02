@@ -15,3 +15,6 @@ function one() {
 	two();
 }
 // one()
+
+
+// IN NESTED IF OR FOR LOOP
