@@ -49,3 +49,6 @@ function chai() {
 
 // ****************** Arrow Function ******************
 // ALWAYS USED IN VARIABLE
+const pani = () => {
+    console.log(this); // {} (as global variable func result) 
+}
