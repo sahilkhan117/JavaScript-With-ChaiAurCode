@@ -58,4 +58,5 @@ let add2 = (n1, n2) => {
 console.log(add2(5, 6)) // 11
 
 // IMPLICITE RETURN AS Arrow Func
-    
+    // ⚪ in this syntex {} removed and directly write return value without keyword
+    // ⚪ {} not applicable
