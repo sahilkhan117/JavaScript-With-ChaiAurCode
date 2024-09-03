@@ -12,3 +12,5 @@ const user = {
 // { username: 'hitesh', price: 199, welcomeMSG: [Function: welcomeMSG] }
 
 user.username = "Sahil";
+// user.welcomeMSG() // Sahil , Welcome to website
+// { username: 'Sahil', price: 199, welcomeMSG: [Function: welcomeMSG] }
