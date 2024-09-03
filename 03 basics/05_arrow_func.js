@@ -4,6 +4,7 @@ const user = {
 	price: 199,
 
     welcomeMSG: function () {
-		console.log(`${this.username} , Welcome to website`);
+		// console.log(`${this.username} , Welcome to website`);
+		console.log(this);
 	},
 };
