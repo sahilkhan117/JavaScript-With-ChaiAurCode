@@ -9,3 +9,4 @@ const user = {
 	},
 };
 // user.welcomeMSG() // hitesh , Welcome to website
+// { username: 'hitesh', price: 199, welcomeMSG: [Function: welcomeMSG] }
