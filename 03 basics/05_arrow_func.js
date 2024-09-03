@@ -56,3 +56,6 @@ let add2 = (n1, n2) => {
     return n1 + n2
 }
 console.log(add2(5, 6)) // 11
+
+// IMPLICITE RETURN AS Arrow Func
+    
