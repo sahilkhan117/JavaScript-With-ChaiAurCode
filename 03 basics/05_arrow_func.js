@@ -3,7 +3,7 @@ const user = {
 	username: "hitesh",
 	price: 199,
 
-    welcomeMSG: function () {
+	welcomeMSG: function () {
 		// console.log(`${this.username} , Welcome to website`);
 		console.log(this);
 	},
@@ -17,7 +17,7 @@ user.username = "Sahil";
 
 // GLOBAL THIS
 // console.log(this); // {}
-// 🔥🧐 BUT in web there have a Window object Contains document and inner structures 
+// 🔥🧐 BUT in web there have a Window object Contains document and inner structures
 
 function chai() {
 	console.log(this);
@@ -50,19 +50,21 @@ function chai() {
 // ****************** Arrow Function ******************
 // ALWAYS USED IN VARIABLE
 const pani = () => {
-    console.log(this); // {} (as global variable func result) 
-}
-let add2 = (n1, n2) => { 
-    return n1 + n2
-}
-console.log(add2(5, 6)) // 11
+	console.log(this); // {} (as global variable func result)
+};
+let add2 = (n1, n2) => {
+	return n1 + n2;
+};
+console.log(add2(5, 6)); // 11
 
 // IMPLICITE RETURN AS Arrow Func
-    // ⚪ in this syntex {} removed and directly write return value without keyword
-    // ⚪ {} not applicable
-    let ADD2 = (n1, n2) => n1 + n2
-    console.log(ADD2(2,4));
-    
-        // ⚪ if {} needed to return a obj use () 
-let pri = (s = "sahil") => ({name : s})
+// ⚪ in this syntex {} removed and directly write return value without keyword
+// ⚪ {} not applicable
+let ADD2 = (n1, n2) => n1 + n2;
+console.log(ADD2(2, 4));
+
+// ⚪ if {} needed to return a obj use ()
+let pri = (s = "sahil") => ({ name: s });
 console.log(pri()); // { name: 'sahil' }
+
+// ********** END
