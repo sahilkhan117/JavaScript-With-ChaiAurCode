@@ -8,3 +8,4 @@ const user = {
 		console.log(this);
 	},
 };
+// user.welcomeMSG() // hitesh , Welcome to website
