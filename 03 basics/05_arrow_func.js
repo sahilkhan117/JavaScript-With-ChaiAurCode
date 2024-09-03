@@ -14,3 +14,6 @@ const user = {
 user.username = "Sahil";
 // user.welcomeMSG() // Sahil , Welcome to website
 // { username: 'Sahil', price: 199, welcomeMSG: [Function: welcomeMSG] }
+
+// GLOBAL THIS
+// console.log(this); // {}
