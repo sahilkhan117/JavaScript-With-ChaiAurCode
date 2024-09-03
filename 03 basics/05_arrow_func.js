@@ -63,3 +63,6 @@ console.log(add2(5, 6)) // 11
     let ADD2 = (n1, n2) => n1 + n2
     console.log(ADD2(2,4));
     
+        // ⚪ if {} needed to return a obj use () 
+let pri = (s = "sahil") => ({name : s})
+console.log(pri()); // { name: 'sahil' }
