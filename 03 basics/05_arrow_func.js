@@ -17,3 +17,4 @@ user.username = "Sahil";
 
 // GLOBAL THIS
 // console.log(this); // {}
+// 🔥🧐 BUT in web there have a Window object Contains document and inner structures 
