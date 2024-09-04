@@ -31,3 +31,6 @@
 ( (name) => {
     console.log(`DB Connected TWO ${name}`);
 } )('Sahil');
+
+// pr('sahil)
+// pr -> () => {}
