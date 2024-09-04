@@ -13,24 +13,24 @@
 // }
 // chai()
 
-
 // 👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻 IIFE
-(function chai() { // (named IIFE)
+(function chai() {
+	// (named IIFE)
 	console.log(`DB Connected`);
 })(); // (<fn defination>)(<executiion>)
 
 // ⚠️⚠️ always use ; after execute IIFE
 
 // 👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻 as un-named arrow fn (un-named IIFE)
-( () => {
-    console.log(`DB Connected TWO`);
-} )();
+(() => {
+	console.log(`DB Connected TWO`);
+})();
 
 // 👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻 as un-named arrow fn and parameter
 
-( (name) => {
-    console.log(`DB Connected TWO ${name}`);
-} )('Sahil');
+((name) => {
+	console.log(`DB Connected TWO ${name}`);
+})("Sahil");
 
 // pr('sahil)
 // pr -> () => {}
