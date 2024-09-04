@@ -17,4 +17,6 @@
 // 👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻 IIFE
 (function chai() { // (named IIFE)
 	console.log(`DB Connected`);
-})();
+})(); // (<fn defination>)(<executiion>)
+
+// ⚠️⚠️ always use ; after execute IIFE
