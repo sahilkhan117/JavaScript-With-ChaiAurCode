@@ -25,3 +25,5 @@
 ( () => {
     console.log(`DB Connected TWO`);
 } )();
+
+// 👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻 as un-named arrow fn and parameter
