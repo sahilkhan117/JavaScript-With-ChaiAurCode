@@ -27,3 +27,7 @@
 } )();
 
 // 👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻 as un-named arrow fn and parameter
+
+( (name) => {
+    console.log(`DB Connected TWO ${name}`);
+} )('Sahil');
