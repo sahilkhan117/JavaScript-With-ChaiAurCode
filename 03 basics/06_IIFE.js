@@ -7,3 +7,8 @@
 // 2️⃣ Immideately Execute 🏃🏻‍➡️🏃🏻‍♀️‍➡️🏃🏻‍♂️‍➡️
 
 // 💥 just like 🐍 python __main__ fn
+
+// function chai(){
+//     console.log(`DB Connected`);
+// }
+// chai()
