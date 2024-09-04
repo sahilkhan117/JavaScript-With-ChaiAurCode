@@ -5,3 +5,5 @@
 // ❓❓❓❓ WHY ❓❓❓❓
 // 1️⃣ Remove 😶‍🌫️Pullution of Global scope variable (accesable for childs🍧 )
 // 2️⃣ Immideately Execute 🏃🏻‍➡️🏃🏻‍♀️‍➡️🏃🏻‍♂️‍➡️
+
+// 💥 just like 🐍 python __main__ fn
