@@ -20,3 +20,8 @@
 })(); // (<fn defination>)(<executiion>)
 
 // ⚠️⚠️ always use ; after execute IIFE
+
+// 👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻 as un-named arrow fn (un-named IIFE)
+( () => {
+    console.log(`DB Connected TWO`);
+} )();
