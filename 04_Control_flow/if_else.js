@@ -29,3 +29,17 @@ if (score > 100) {
 const balance = 1000;
 
 if (balance > 500) console.log(`test`); // short-hand single line
+
+// if (balance > 500) {
+// 	console.log("more then 500");
+// }
+// else if (balance > 800) {
+// 	console.log("more then 800");
+// }
+// else if (balance > 1000) {
+// 	console.log("more then 1000");
+// }
+// else {
+//     console.log('less then 1200');
+// }
+
