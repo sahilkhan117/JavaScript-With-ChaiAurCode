@@ -44,3 +44,17 @@ if (balance > 500) console.log(`test`); // short-hand single line
 // }
 
 // && AND || oprator 
+
+const userin = true
+const debitcard = true
+const logGoogle = false
+const logEmail = true
+
+if (userin && debitcard){ // AND
+    console.log('allow to perchase');   
+}
+
+if (logGoogle || logEmail) { // OR
+    console.log('user logged in');
+    
+}
