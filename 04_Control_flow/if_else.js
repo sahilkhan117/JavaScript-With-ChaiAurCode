@@ -58,3 +58,5 @@ if (logGoogle || logEmail) { // OR
     console.log('user logged in');
     
 }
+
+// *****************END
