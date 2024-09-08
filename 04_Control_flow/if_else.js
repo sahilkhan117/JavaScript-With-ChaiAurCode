@@ -14,3 +14,5 @@ if (tempr == 40) {
 } else {
 	console.log(`no 40`);
 }
+
+// CONDITIONAL CASES (OPRATOR)
