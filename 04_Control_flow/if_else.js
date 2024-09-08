@@ -23,3 +23,9 @@ if (score > 100) {
 	let power = "fly";
 	console.log(`User power: ${power}`);
 }
+// console.log(`User power: ${power}`); // 🔴 not accesable
+
+
+const balance = 1000;
+
+if (balance > 500) console.log(`test`); // short-hand single line
