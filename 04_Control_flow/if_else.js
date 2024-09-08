@@ -43,3 +43,4 @@ if (balance > 500) console.log(`test`); // short-hand single line
 //     console.log('less then 1200');
 // }
 
+// && AND || oprator 
