@@ -16,3 +16,4 @@ if (tempr == 40) {
 }
 
 // CONDITIONAL CASES (OPRATOR)
+// <, >, <=, >=, ==, !=, ===, !==
