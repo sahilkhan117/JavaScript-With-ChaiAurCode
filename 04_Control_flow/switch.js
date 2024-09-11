@@ -7,19 +7,19 @@
 //         break;
 // }
 
-
-const month = 3
+const month = 3;
 
 switch (month) {
-    case 1:
-        console.log('JAN');
-        break;
-    // Breack is Importent
-    case 2:
-        console.log('FEB');
-        break;
-    case 3:
-        console.log('MAR');
-        break;
+	case 1:
+		console.log("JAN");
+		break;
+	// Breack is Importent
+	case 2:
+		console.log("FEB");
+		break;
+	case 3:
+		console.log("MAR");
+		break;
 
+	// When no one is called
 }
