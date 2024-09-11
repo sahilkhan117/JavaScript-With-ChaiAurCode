@@ -26,3 +26,5 @@ switch (month) {
         console.log('Wrong val');
         break;
 }
+
+// *************** END
