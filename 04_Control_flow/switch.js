@@ -14,4 +14,5 @@ switch (month) {
     case 1:
         console.log('JAN');
         break;
+    // Breack is Importent
 }
