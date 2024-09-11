@@ -15,4 +15,11 @@ switch (month) {
         console.log('JAN');
         break;
     // Breack is Importent
+    case 2:
+        console.log('FEB');
+        break;
+    case 3:
+        console.log('MAR');
+        break;
+
 }
