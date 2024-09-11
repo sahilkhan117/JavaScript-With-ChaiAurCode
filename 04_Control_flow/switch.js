@@ -22,4 +22,7 @@ switch (month) {
 		break;
 
 	// When no one is called
+    default:
+        console.log('Wrong val');
+        break;
 }
