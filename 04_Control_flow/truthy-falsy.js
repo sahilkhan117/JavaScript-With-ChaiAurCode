@@ -12,3 +12,6 @@ else {
 
 // 🤥🤥 FALSY : (only some)
 // false, 0, -0, BigInt 0n, "", null, undefied, NaN
+
+// 🤩🤩TRUTHY :
+// true, 'false', '0', "not empty", [], {}, function(){}
