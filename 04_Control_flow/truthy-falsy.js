@@ -36,3 +36,4 @@ console.log(val1);
 
 // Ternary OPRATOR
 // (<cond>)? <true part> : <false part>
+let icecreame = 100
