@@ -29,3 +29,5 @@ if (Object.keys(emptyobj).length === 0) console.log('empty obj');
 
 let val1;
 // val1 = 5 ?? 10 // 5 (first preference)
+val1 = null ?? 15 // 15
+val1 = undefined ?? 20 // 20
