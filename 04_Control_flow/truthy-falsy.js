@@ -15,3 +15,7 @@ else {
 
 // 🤩🤩TRUTHY :
 // true, 'false', '0', "not empty", [], {}, function(){}
+
+if (userarr.length === 0){
+    console.log("Array is Empty");
+}
