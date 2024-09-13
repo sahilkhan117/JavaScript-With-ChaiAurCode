@@ -35,3 +35,4 @@ val1 = undefined ?? 20 // 20
 console.log(val1);
 
 // Ternary OPRATOR
+// (<cond>)? <true part> : <false part>
