@@ -6,4 +6,4 @@ if (userarr) {
 else {
     console.log('cant got the user');
 }
-// Got User
+// Got User (means epty arr is true)
