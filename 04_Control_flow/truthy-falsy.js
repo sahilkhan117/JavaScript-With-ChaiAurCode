@@ -26,3 +26,5 @@ if (Object.keys(emptyobj).length === 0) console.log('empty obj');
 
 
 // NULLISH coalescing oprator (??): null undefined
+
+let val1;
