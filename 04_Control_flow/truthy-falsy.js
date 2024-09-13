@@ -33,3 +33,5 @@ val1 = null ?? 15 // 15
 val1 = undefined ?? 20 // 20
 
 console.log(val1);
+
+// Ternary OPRATOR
