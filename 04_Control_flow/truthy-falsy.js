@@ -23,3 +23,6 @@ if (userarr.length === 0){
 let emptyobj = {}
 if (Object.keys(emptyobj).length === 0) console.log('empty obj');
 // empty obj
+
+
+// NULLISH coalescing oprator (??): null undefined
