@@ -37,3 +37,4 @@ console.log(val1);
 // Ternary OPRATOR
 // (<cond>)? <true part> : <false part>
 let icecreame = 100
+icecreame >= 80 ? console.log("More 80") : console.log("less 80");
