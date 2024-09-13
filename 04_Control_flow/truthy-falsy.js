@@ -19,3 +19,7 @@ else {
 if (userarr.length === 0){
     console.log("Array is Empty");
 }
+
+let emptyobj = {}
+if (Object.keys(emptyobj).length === 0) console.log('empty obj');
+// empty obj
