@@ -9,3 +9,9 @@ for (let i = 0; i < 10; i++) {
     console.log(i);
 }
 // OUTPUT
+// 0
+// 1
+// 2
+// 3
+// 4
+// found 5
