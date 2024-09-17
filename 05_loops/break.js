@@ -18,3 +18,12 @@ for (let i = 0; i < 10; i++) {
 
 
 // continue : move to next ittration
+
+for (let i = 0; i < 10; i++) {
+    
+    if (i == 5) {
+        console.log('found 5');
+        continue
+    }
+    console.log(i);
+}
