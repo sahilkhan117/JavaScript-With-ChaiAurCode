@@ -23,7 +23,7 @@ for (let i = 0; i < 10; i++) {
     
     if (i == 5) {
         console.log('found 5');
-        continue
+        continue // if five so continue
     }
     console.log(i);
 }
