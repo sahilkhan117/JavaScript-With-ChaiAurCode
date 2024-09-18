@@ -25,3 +25,4 @@ while (i < 10) {
 
 i = 11 // declaration
 do {
+    console.log(i);
