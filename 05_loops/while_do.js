@@ -22,3 +22,6 @@ while (i < 10) {
 
 
 // do-while : ittrate over the condition (exit control loop) (first execute)
+
+i = 11 // declaration
+do {
