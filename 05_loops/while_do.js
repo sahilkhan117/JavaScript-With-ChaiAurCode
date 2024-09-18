@@ -27,3 +27,5 @@ i = 11 // declaration
 do {
     console.log(i);
     i++ // increment
+} while (i <= 10)  // condition check
+
