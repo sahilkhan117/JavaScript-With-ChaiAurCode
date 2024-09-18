@@ -18,3 +18,7 @@ while (i < 10) {
 // 7
 // 8
 // 9
+
+
+
+// do-while : ittrate over the condition (exit control loop) (first execute)
