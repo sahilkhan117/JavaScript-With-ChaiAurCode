@@ -28,4 +28,6 @@ do {
     console.log(i);
     i++ // increment
 } while (i <= 10)  // condition check
+// ▶️▶️ print only 11 then exit the loop
 
+// Because the condition is false
