@@ -17,3 +17,5 @@ for (const i of arr) {
 // 3
 // 4
 // 5
+
+greeting = "Hello World!";
