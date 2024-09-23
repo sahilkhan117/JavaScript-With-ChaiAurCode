@@ -19,3 +19,6 @@ for (const i of arr) {
 // 5
 
 greeting = "Hello World!";
+for (const greet of greeting) {
+	console.log(greet);
+}
