@@ -22,3 +22,16 @@ greeting = "Hello World!";
 for (const greet of greeting) {
 	console.log(greet);
 }
+// Output
+// H
+// e
+// l
+// l
+// o
+ 
+// W
+// o
+// r
+// l
+// d
+// !
