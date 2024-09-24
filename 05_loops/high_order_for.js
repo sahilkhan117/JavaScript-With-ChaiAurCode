@@ -42,7 +42,9 @@ mymap.set("1", "one");
 mymap.set("3", "three");
 
 for (const [k, v] of mymap) { // return arrey of [key, value]
-	// console.log(k, " : ", v);
+	console.log(k, " : ", v);
+
+	// OUTPUT
 	// 2  :  two
 	// 1  :  one
 	// 3  :  three
