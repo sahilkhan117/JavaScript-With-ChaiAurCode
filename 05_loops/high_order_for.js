@@ -54,3 +54,5 @@ let myobj = {
 	IN : "india",
 	USA : "United states of America"
 }
+for (const [k, v] of myobj) { // return arrey of [key, value]
+}
