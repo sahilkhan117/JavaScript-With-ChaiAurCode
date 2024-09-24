@@ -35,3 +35,5 @@ for (const greet of greeting) {
 // l
 // d
 // !
+
+let mymap = new Map(); // holding key value eith its order
