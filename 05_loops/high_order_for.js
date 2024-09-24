@@ -63,3 +63,4 @@ for (const [k, v] of myobj) { // return arrey of [key, value]
 // for in
 // APPLY ON : object
 // NOT APPLY : 
+// return : single index
