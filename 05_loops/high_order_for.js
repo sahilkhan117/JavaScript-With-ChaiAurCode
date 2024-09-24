@@ -77,3 +77,6 @@ let myo = {
 	cpp : "C++",
 	rb : "Ruby"
 }
+for (const key in myo) { // return single key value [js, py, cpp, rb]
+	console.log(key, ":-", myo[key]);
+}
