@@ -56,5 +56,8 @@ let myobj = {
 }
 for (const [k, v] of myobj) { // return arrey of [key, value]
 		// console.log(k, " : ", v); // ❌❌ ERROR : not ittratable
-
 }
+
+
+
+// for in
