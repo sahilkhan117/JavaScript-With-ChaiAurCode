@@ -64,3 +64,9 @@ for (const [k, v] of myobj) { // return arrey of [key, value]
 // APPLY ON : object
 // NOT APPLY : 
 // return : single index
+
+// for (const key in object) {
+// 	if (Object.prototype.hasOwnProperty.call(object, key)) {
+// 		const element = object[key];
+// 	}
+// }
