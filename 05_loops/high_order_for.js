@@ -80,3 +80,8 @@ let myo = {
 for (const key in myo) { // return single key value [js, py, cpp, rb]
 	console.log(key, ":-", myo[key]);
 }
+
+let proArr = ["js", "py", "cpp", "rb"]
+for (const k in proArr) {
+	console.log(k); // 0 1 2 3 (index of arr)
+}
