@@ -37,3 +37,6 @@ for (const greet of greeting) {
 // !
 
 let mymap = new Map(); // holding key value eith its order
+mymap.set("2", "two");
+mymap.set("1", "one");
+mymap.set("3", "three");
