@@ -49,3 +49,8 @@ for (const [k, v] of mymap) { // return arrey of [key, value]
 	// 1  :  one
 	// 3  :  three
 }
+
+let myobj = {
+	IN : "india",
+	USA : "United states of America"
+}
