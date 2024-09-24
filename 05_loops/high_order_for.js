@@ -70,3 +70,10 @@ for (const [k, v] of myobj) { // return arrey of [key, value]
 // 		const element = object[key];
 // 	}
 // }
+
+let myo = {
+	js : "javascript",
+	py : "python",
+	cpp : "C++",
+	rb : "Ruby"
+}
