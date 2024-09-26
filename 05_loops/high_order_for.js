@@ -91,3 +91,7 @@ let mym = new Map(); // holding key value eith its order
 mym.set("2", "two");
 mym.set("1", "one");
 mym.set("3", "three");
+
+for (const k in mym) {
+	console.log(k);
+}
