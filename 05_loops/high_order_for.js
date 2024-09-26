@@ -93,5 +93,5 @@ mym.set("1", "one");
 mym.set("3", "three");
 
 for (const k in mym) {
-	// console.log(k);
+	// console.log(k); // ⚠️⚠️ no output
 }
