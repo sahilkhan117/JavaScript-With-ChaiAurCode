@@ -85,3 +85,6 @@ let proArr = ["js", "py", "cpp", "rb"]
 for (const k in proArr) {
 	console.log(k); // 0 1 2 3 (index of arr)
 }
+
+
+let mym = new Map(); // holding key value eith its order
