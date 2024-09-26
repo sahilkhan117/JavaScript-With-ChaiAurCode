@@ -96,3 +96,5 @@ for (const k in mym) {
 	// console.log(k); // ⚠️⚠️ no output
 	// cant access any map with for in
 }
+
+// ************** End
