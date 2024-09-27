@@ -36,3 +36,7 @@ const myCODE = [
         Extension : "java"
     },
 ]
+
+myCODE.forEach( (i) => {
+    console.log(i.lenguageName);
+})
