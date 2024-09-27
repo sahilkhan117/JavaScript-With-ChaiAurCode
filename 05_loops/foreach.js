@@ -40,3 +40,8 @@ const myCODE = [
 myCODE.forEach( (i) => {
     console.log(i.lenguageName);
 })
+// OUTPUT
+// Javascript
+// python
+// C++
+// java
