@@ -16,3 +16,23 @@ coding.forEach( function (item, index, arr) {
 
 // ARROE FUNC
 // coding.forEach( () => {} )
+    
+// API
+const myCODE = [
+    {
+        lenguageName : "Javascript",
+        Extension : "js"
+    },
+    {
+        lenguageName : "python",
+        Extension : "py"
+    },
+    {
+        lenguageName : "C++",
+        Extension : "cpp"
+    },
+    {
+        lenguageName : "java",
+        Extension : "java"
+    },
+]
