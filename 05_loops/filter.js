@@ -4,3 +4,6 @@ const coding = ["js", "ruby", "python", "java", "cpp", "html"]
 // let newar = coding.forEach( (i, idx) => (`${idx+1}. ${i}`))
 // console.log(newar); // 😵‍💫😵‍💫 undefined (foreack cant return anything)
 
+
+// filter 
+// 🤩🤩 they return something
