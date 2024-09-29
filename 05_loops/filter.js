@@ -7,3 +7,5 @@ const coding = ["js", "ruby", "python", "java", "cpp", "html"]
 
 // filter 
 // 🤩🤩 they return something
+
+let mynums = [1,2,3,4,5,6,7,8,9,10]
