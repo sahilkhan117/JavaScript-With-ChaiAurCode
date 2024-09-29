@@ -27,3 +27,5 @@ const books = [
     { title: 'Book 8', genre: "fiction", publish: 2008, edition: 2020 },
     { title: 'Book 9', genre: "sciencs", publish: 2016, edition: 2022 },
 ]
+
+// ❓ all books from fiction genra and publish before 1990
