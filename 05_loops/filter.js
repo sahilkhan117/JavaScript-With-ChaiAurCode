@@ -32,3 +32,5 @@ const books = [
 let newBk = books.filter( (i) => i.genre == "fiction" || i.publish > 1990)
 
 console.log(newBk);
+
+// ******* END
