@@ -4,3 +4,5 @@ let newNUM = myNUM.map( (i) => i+10)
 // console.log(newNUM); // [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 
 // CHAINING
+
+let p = myNUM
