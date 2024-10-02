@@ -9,3 +9,4 @@ let p = myNUM
     .map((i) => i * i)
     .map( (i) => i+1);
 
+console.log(p);
