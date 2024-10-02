@@ -6,4 +6,6 @@ let newNUM = myNUM.map((i) => i + 10);
 // CHAINING
 
 let p = myNUM
-    .map((i) => i * i); 
+    .map((i) => i * i)
+    .map( (i) => i+1);
+
