@@ -15,3 +15,5 @@ let curses = [
 let total = curses.reduce( (acc, i) => (acc + i.price), 0)
 console.log(total);
 // 22996
+
+// ************* END
