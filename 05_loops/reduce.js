@@ -4,3 +4,4 @@
 let num = [1,2,3,4]
 let sum = num.reduce( (acc, i) => (acc + i), 0) // sum of elem of arr
 console.log(sum);
+// 10
