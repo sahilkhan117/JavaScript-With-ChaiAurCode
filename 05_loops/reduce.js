@@ -12,3 +12,4 @@ let curses = [
     { name: "Mobile Dev cource", price: 5999},
     { name: "Data Science cource", price: 12999},
 ]
+let total = curses.reduce( (acc, i) => (acc + i.price), 0)
