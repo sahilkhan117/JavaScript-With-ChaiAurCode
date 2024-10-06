@@ -13,3 +13,4 @@ let curses = [
     { name: "Data Science cource", price: 12999},
 ]
 let total = curses.reduce( (acc, i) => (acc + i.price), 0)
+console.log(total);
