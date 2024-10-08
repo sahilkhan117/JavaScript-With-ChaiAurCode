@@ -17,3 +17,6 @@
 
 >>> document.getElementById("title").class
 undefined
+
+>>> document.getElementById("title").className
+'head'
