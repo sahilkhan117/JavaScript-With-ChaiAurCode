@@ -20,3 +20,6 @@ undefined
 
 >>> document.getElementById("title").className
 'head'
+
+>>> a.getAttribute("title")
+"htllo"
