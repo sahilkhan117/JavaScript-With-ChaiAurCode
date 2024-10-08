@@ -9,3 +9,4 @@
 - use to accs all the html page elements to modify
 
 ```js
+>>> let a = document.getElementById("title")
