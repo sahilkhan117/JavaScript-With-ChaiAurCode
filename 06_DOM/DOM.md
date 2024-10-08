@@ -11,3 +11,6 @@
 ```js
 >>> let a = document.getElementById("title")
 <h1 id="title" class="head">DOM by chai aur code</h1>
+
+>>> document.getElementById("title").id
+"title"
