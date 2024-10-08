@@ -5,3 +5,5 @@
 ![](01_DOM_TREE.png)
 
 ## Document
+- has object of whole website html code
+- use to accs all the html page elements to modify
