@@ -14,3 +14,6 @@
 
 >>> document.getElementById("title").id
 "title"
+
+>>> document.getElementById("title").class
+undefined
