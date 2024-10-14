@@ -31,3 +31,4 @@ undefined
 - 🤩🤩 we use selecters as css selecters like `.list:first-child` and `input[text="password"]` 
 
 `document.querySelectorAll(".head")`
+- returns list of all element of its parameter as NodeList[]
