@@ -33,3 +33,5 @@ undefined
 `document.querySelectorAll(".head")`
 - returns list of all element of its parameter as NodeList[]
 - NodeList have 🤩👍🏻👍🏻 `forEach()` to ittrate
+
+`document.getElementById("title")`
