@@ -27,3 +27,4 @@ undefined
 ### Accesing methods
 
 `document.querySelector(".head")`
+- returns first element of its parameter as html node
