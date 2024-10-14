@@ -40,3 +40,4 @@ undefined
 `document.getElementsByClassName("head")`
 - return HTMLlist of elem of this class
 - HTMLlist dont have ⚠️⚠️😞😞 `forEach()` to ittrate
+- 😤 instead use the querySelectorAll
