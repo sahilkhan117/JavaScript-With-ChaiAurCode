@@ -25,3 +25,5 @@ undefined
 "htllo"
 ```
 ### Accesing methods
+
+`document.querySelector(".head")`
