@@ -24,3 +24,4 @@ undefined
 >>> a.getAttribute("title")
 "htllo"
 ```
+### Accesing methods
