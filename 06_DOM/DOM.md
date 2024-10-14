@@ -29,3 +29,5 @@ undefined
 `document.querySelector(".head")`
 - returns first element of its parameter as html node
 - 🤩🤩 we use selecters as css selecters like `.list:first-child` and `input[text="password"]` 
+
+`document.querySelectorAll(".head")`
