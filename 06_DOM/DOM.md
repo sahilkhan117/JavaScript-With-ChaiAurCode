@@ -35,3 +35,4 @@ undefined
 - NodeList have 🤩👍🏻👍🏻 `forEach()` to ittrate
 
 `document.getElementById("title")`
+- return elem of this id as html node
