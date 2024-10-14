@@ -36,3 +36,5 @@ undefined
 
 `document.getElementById("title")`
 - return elem of this id as html node
+
+`document.getElementsByClassName("head")`
