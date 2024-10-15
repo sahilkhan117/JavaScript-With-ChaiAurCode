@@ -62,3 +62,5 @@ undefined
 `a.innerText = "hello"` 🆚 `a.textContent = "hello"`
 -   innerText only return current visible text
 -   textContent retutrn all hidden and visible text in the tag
+
+`a.innerHTML = "hello"`
