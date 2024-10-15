@@ -44,3 +44,6 @@ undefined
 
 `document.getElementsByTagName("h1")`
 -   return NodeList of elem of this tag
+
+`document.getElementsByName("title")`
+-   return NodeList of elem of this name
