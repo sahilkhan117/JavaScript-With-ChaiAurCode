@@ -41,3 +41,6 @@ undefined
 - return HTMLlist of elem of this class
 - HTMLlist dont have ⚠️⚠️😞😞 `forEach()` to ittrate
 - 😤 instead use the querySelectorAll
+
+`document.getElementsByTagName("h1")`
+-   return NodeList of elem of this tag
