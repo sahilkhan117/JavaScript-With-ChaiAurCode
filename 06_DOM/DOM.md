@@ -47,3 +47,5 @@ undefined
 
 `document.getElementsByName("title")`
 -   return NodeList of elem of this name
+
+### Change Style
