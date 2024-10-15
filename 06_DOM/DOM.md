@@ -53,3 +53,5 @@ undefined
 -   $use - .style - method$
 
 `a.style.color = "red"`
+-   change color
+-   same as we change all css properties
