@@ -57,3 +57,6 @@ undefined
 -   same as we change all css properties
 
 ### Change Text
+
+## `let a = document.querySelector(".head")`
+`a.innerText = "hello"` 🆚 `a.textContent = "hello"`
