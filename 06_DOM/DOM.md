@@ -64,3 +64,5 @@ undefined
 -   textContent retutrn all hidden and visible text in the tag
 
 `a.innerHTML = "hello"`
+-   return text with there respected tags
+-   change text as well as the html code
