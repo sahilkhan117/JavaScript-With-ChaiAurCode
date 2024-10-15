@@ -49,3 +49,5 @@ undefined
 -   return NodeList of elem of this name
 
 ### Change Style
+## `let a = document.querySelector(".head")`
+-   $use - .style - method$
