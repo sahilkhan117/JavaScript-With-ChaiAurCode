@@ -55,3 +55,5 @@ undefined
 `a.style.color = "red"`
 -   change color
 -   same as we change all css properties
+
+### Change Text
