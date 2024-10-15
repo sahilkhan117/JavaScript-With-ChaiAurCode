@@ -60,3 +60,5 @@ undefined
 
 ## `let a = document.querySelector(".head")`
 `a.innerText = "hello"` 🆚 `a.textContent = "hello"`
+-   innerText only return current visible text
+-   textContent retutrn all hidden and visible text in the tag
