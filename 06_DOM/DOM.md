@@ -51,3 +51,5 @@ undefined
 ### Change Style
 ## `let a = document.querySelector(".head")`
 -   $use - .style - method$
+
+`a.style.color = "red"`
