@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
         }
     </style>
 </head>
+
 <body class="bg-black">
 
     <div class="parent">
@@ -31,5 +33,8 @@
     console.log(parent.children[1]); // div.day
     console.log(parent.children[1].innerHTML); // Tuesday
 
+    for (let i = 0; i < parent.children.length; i++) {
+        console.log(parent.children[i].innerHTML)
+    }
 </script>
 </html>
