@@ -22,5 +22,11 @@
 
     addLang("Python")
     addLang("C")
+
+    function addOPTLang(langName) {
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(langName)) // ⭐⭐⭐ not to traverse tree only append a floating node
+        ul.appendChild(li)
+    }
 </script>
 </html>
