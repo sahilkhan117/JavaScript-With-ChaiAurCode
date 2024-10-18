@@ -13,6 +13,11 @@
 </body>
 <script>
         const ul = document.querySelector(".language")
-        
+
+        function addLang(langName) {
+        const li = document.createElement('li');
+        li.innerHTML = `${langName}` // ⚠️⚠️⚠️ complex opration
+        ul.appendChild(li)
+    }
 </script>
 </html>
