@@ -6,5 +6,7 @@ let body = document.querySelector("body")
 
 colors.forEach( i => {
     i.addEventListener('click', e => {
+        // console.log(e);
+        // console.log(e.target);
     });
 })
