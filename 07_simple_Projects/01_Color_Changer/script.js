@@ -14,3 +14,5 @@ colors.forEach( i => {
         body.style.backgroundColor = col
     });
 })
+
+// /*************** Its Done From Here Return to HTML File */
