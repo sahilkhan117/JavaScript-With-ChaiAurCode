@@ -8,5 +8,9 @@ colors.forEach( i => {
     i.addEventListener('click', e => {
         // console.log(e);
         // console.log(e.target);
+
+        let col = e.target.id
+        console.log(col);
+        body.style.backgroundColor = col
     });
 })
