@@ -25,4 +25,6 @@ form.addEventListener("submit", (e) => {
 		msg.style.color = col;
 
         msg.innerHTML = `Your are ${bmi < 18.6 ? "Under" : bmi < 24.9 ? "Best/fit" : "Over"} weight`;
+
+        // ************* END of BMI *** goto HTML file*************
 });
