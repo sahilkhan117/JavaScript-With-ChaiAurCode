@@ -15,5 +15,6 @@ form.addEventListener("submit", (e) => {
         msg.innerHTML = `Please give a valid Height ${height}`;
 	} else if (weight == "" || weight < 0 || isNaN(weight)) {
 		msg.innerHTML = `Please give a valid Height ${weight}`;
+	} else {
 
 });
