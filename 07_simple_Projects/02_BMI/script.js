@@ -21,4 +21,6 @@ form.addEventListener("submit", (e) => {
 
         let col = bmi < 18.6 ? "yellow" : bmi < 24.9 ? "green" : "red";
 
+        result.style.color = col;
+		msg.style.color = col;
 });
