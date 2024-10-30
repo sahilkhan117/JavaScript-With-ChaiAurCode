@@ -7,5 +7,8 @@ const result = document.querySelector("#result");
 const msg = result.nextElementSibling;
 
 form.addEventListener("submit", (e) => {
+
+    const height = parseInt(h.value);
+	const weight = parseInt(w.value);
     
 });
