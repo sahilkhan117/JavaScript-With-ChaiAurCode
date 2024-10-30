@@ -19,4 +19,6 @@ form.addEventListener("submit", (e) => {
         const bmi = (weight / ((height * height) / 10000)).toFixed(2);
         result.innerHTML = `${bmi}`;
 
+        let col = bmi < 18.6 ? "yellow" : bmi < 24.9 ? "green" : "red";
+
 });
