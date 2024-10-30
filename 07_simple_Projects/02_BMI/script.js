@@ -12,4 +12,6 @@ form.addEventListener("submit", (e) => {
 	const weight = parseInt(w.value);
 
     if (height == "" || height < 0 || isNaN(height)) {
+        msg.innerHTML = `Please give a valid Height ${height}`;
+
 });
