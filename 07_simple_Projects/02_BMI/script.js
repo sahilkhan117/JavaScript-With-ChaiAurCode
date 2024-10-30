@@ -10,5 +10,6 @@ form.addEventListener("submit", (e) => {
 
     const height = parseInt(h.value);
 	const weight = parseInt(w.value);
-    
+
+    if (height == "" || height < 0 || isNaN(height)) {
 });
