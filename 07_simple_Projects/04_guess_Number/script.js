@@ -70,3 +70,8 @@ function displayGuess(guess) {
     numGuess++;
     remaining.innerHTML = `${11 - numGuess}`
 }
+
+function displayMSG(message) {
+	// intract DOM
+    lowOrHi.innerHTML = `<h2>${message}</h2>`
+}
