@@ -50,3 +50,15 @@ function validateGuess(guess) {
 		}
 	}
 }
+
+function checkGuess(guess) {
+    // low or high
+	if (guess == randomNumber) {
+        displayMSG(`You Guessed it right <span class="bg-green-500 px-2"> ${guess} </span>`);
+		endGamne();
+	} else if (guess < randomNumber) {
+        displayMSG(`No. is TOOO LOW`);
+	} else if (guess > randomNumber) {
+        displayMSG(`No. is TOOO HIGH`);
+	}
+}
