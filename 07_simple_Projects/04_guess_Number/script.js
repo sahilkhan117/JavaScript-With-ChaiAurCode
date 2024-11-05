@@ -62,3 +62,11 @@ function checkGuess(guess) {
         displayMSG(`No. is TOOO HIGH`);
 	}
 }
+
+function displayGuess(guess) {
+    // update slot
+    userInput.value = ''
+    GuessSlot.innerHTML += `${guess}, `
+    numGuess++;
+    remaining.innerHTML = `${11 - numGuess}`
+}
