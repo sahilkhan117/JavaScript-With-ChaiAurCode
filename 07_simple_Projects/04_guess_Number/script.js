@@ -7,3 +7,5 @@ const GuessSlot = document.querySelector("#guessSlot");
 const remaining = document.querySelector("#attempts");
 const lowOrHi = document.querySelector("#lowOrHi");
 const startOver = document.querySelector(".resultpara");
+
+const p = document.createElement("p");
