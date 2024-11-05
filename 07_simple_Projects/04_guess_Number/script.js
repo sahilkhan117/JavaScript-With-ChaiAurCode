@@ -14,3 +14,13 @@ let prevGuess = [];
 let numGuess = 1;
 
 let playGame = true;
+
+if (playGame) {
+    submit.addEventListener("click", (e) => {
+        e.preventDefault();
+        
+		const guess = parseInt(userInput.value);
+
+		validateGuess(guess);
+	});
+}
