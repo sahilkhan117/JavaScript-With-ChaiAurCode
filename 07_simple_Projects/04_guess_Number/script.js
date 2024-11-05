@@ -24,3 +24,29 @@ if (playGame) {
 		validateGuess(guess);
 	});
 }
+
+
+function validateGuess(guess) {
+	// between 1 to 100
+
+	if (isNaN(guess)) {
+		alert("Please enter a valid Number");
+        userInput.value = ''
+	} else if (guess < 1) {
+        alert("Enetr enter a number Greater then 0");
+        userInput.value = ''
+	} else if (guess > 100) {
+        alert("Enetr enter a number less then 100");
+        userInput.value = ''
+	} else {
+		prevGuess.push(guess);
+		if (numGuess === 11) {
+			displayGuess(guess);
+			displayMSG(`Game Over. Random no. is ${randomNumber}`);
+			endGamne();
+		} else {
+			displayGuess(guess);
+			checkGuess(guess);
+		}
+	}
+}
