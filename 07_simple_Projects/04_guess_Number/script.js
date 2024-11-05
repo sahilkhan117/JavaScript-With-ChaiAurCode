@@ -9,3 +9,8 @@ const lowOrHi = document.querySelector("#lowOrHi");
 const startOver = document.querySelector(".resultpara");
 
 const p = document.createElement("p");
+
+let prevGuess = [];
+let numGuess = 1;
+
+let playGame = true;
