@@ -87,3 +87,17 @@ function endGamne() {
 
     newGamne()
 }
+
+function newGamne() {
+    const newGameButton = document.querySelector("#newGame")
+    newGameButton.addEventListener('click', e => {
+        randomNumber = Math.ceil(Math.random() * 100);
+        prevGuess = []
+        numGuess = 1
+        GuessSlot.innerHTML = ''
+        remaining.innerHTML = `${11 - numGuess}`
+        userInput.removeAttribute("disabled")
+        startOver.removeChild(p)
+        playGame = true
+    })
+}
