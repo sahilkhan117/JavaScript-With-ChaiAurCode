@@ -75,3 +75,15 @@ function displayMSG(message) {
 	// intract DOM
     lowOrHi.innerHTML = `<h2>${message}</h2>`
 }
+
+function endGamne() {
+    userInput.value = ''
+    userInput.setAttribute("disabled", '')
+    p.classList.add('button')
+    p.innerHTML = `<h2 class="border-2 rounded-full p-2 my-4 bg-green-500 font-bold outline outline-blue-500 outline-2 w-1/2 m-auto" id="newGame">Start New Game</h2>`
+
+    startOver.appendChild(p)
+    playGame = false
+
+    newGamne()
+}
