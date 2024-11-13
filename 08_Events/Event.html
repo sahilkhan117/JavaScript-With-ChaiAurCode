@@ -66,6 +66,15 @@
     // false (default) : in Owl in LI
     // true : in LI in Owl
 
+    document.querySelector('#images').addEventListener("click", (e) => {
+        console.log(e.target)
+
+        if (e.target.tagName == 'IMG') {
+            let rem = e.target.parentNode
+            rem.remove()
+            // rem.parentNode.removeChild(rem)
+        }
+    });
 </script>
 
 </html>
