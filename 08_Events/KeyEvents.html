@@ -9,4 +9,11 @@
 <body class="bg-black">
     <input class="text-3xl m-auto bg-white"></input>
 </body>
+<script>
+    let input = document.querySelector("input")
+
+    input.addEventListener("keydown", e => console.log("D : " + e.keyCode));
+    input.addEventListener("keypress", e => console.log("P : " + e.key));
+    input.addEventListener("keyup", e => console.log("U : " + e.key));
+</script>
 </html>
