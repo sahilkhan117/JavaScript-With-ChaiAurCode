@@ -14,3 +14,13 @@ const promiceOne = new Promise(function (resolve, reject) {
 promiceOne.then(function () {
 	console.log("Promise consumed");
 });
+
+// 2️⃣
+new Promise(function (resolve, reject) {
+	setTimeout(function () {
+		console.log("Async 2 complete");
+		resolve();
+	}, 1000);
+}).then(function () {
+	console.log("Async 2 resolved");
+});
