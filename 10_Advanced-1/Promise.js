@@ -87,3 +87,8 @@ consumePromiseFive();
 // async function getAllUsers() {
 //     const responce = await fetch("https://jsonplaceholder.typicode.com/users")
 //     // console.log(responce); // ✅ worked after await
+
+//     const data = await responce.json() // 😮😥 convert to json is also take some time so use await for that also
+//     console.log(data);
+// }
+// getAllUsers()
