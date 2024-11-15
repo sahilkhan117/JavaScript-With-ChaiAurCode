@@ -71,3 +71,13 @@ const promiceFive = new Promise(function (resolve, reject) {
 		}
 	}, 1000);
 });
+
+async function consumePromiseFive() {
+	try {
+		let responce = await promiceFive;
+		console.log(responce);
+	} catch (error) {
+		console.log(error);
+	}
+}
+consumePromiseFive();
