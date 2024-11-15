@@ -36,3 +36,15 @@ const promiceThree = new Promise(function (resolve, reject) {
 promiceThree.then(function (user) {
 	console.log(user);
 });
+
+// 4️⃣
+const promiceFour = new Promise(function (resolve, reject) {
+	setTimeout(function () {
+		let error = true;
+		if (!error) {
+			resolve({ username: "sahil" });
+		} else {
+			reject("ERROR: SOMETHING WENT WRONG");
+		}
+	}, 1000);
+});
