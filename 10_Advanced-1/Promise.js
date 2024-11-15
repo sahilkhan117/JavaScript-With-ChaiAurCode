@@ -2,8 +2,7 @@
 // the promice object represents the eventual completion (or failure) of an asuncronous opration and its resulting value
 
 const promiceOne = new Promise(function (resolve, reject) {
-
-    // Do any async task
+	// Do any async task
 	// Network Call, DB call, Cryptography
 	setTimeout(function () {
 		console.log("Async Task Is complete");
@@ -24,7 +23,6 @@ new Promise(function (resolve, reject) {
 }).then(function () {
 	console.log("Async 2 resolved");
 });
-
 
 // 3️⃣
 const promiceThree = new Promise(function (resolve, reject) {
@@ -61,3 +59,15 @@ promiceFour
 		console.log(error);
 	})
 	.finally(() => console.log("Promise Ended"));
+
+// 5️⃣
+const promiceFive = new Promise(function (resolve, reject) {
+	setTimeout(function () {
+		let error = true;
+		if (!error) {
+			resolve({ username: "js" });
+		} else {
+			reject("ERROR: js WENT WRONG");
+		}
+	}, 1000);
+});
