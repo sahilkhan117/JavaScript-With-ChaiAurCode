@@ -92,3 +92,10 @@ consumePromiseFive();
 //     console.log(data);
 // }
 // getAllUsers()
+
+// 💫 with then 🤩
+fetch("https://jsonplaceholder.typicode.com/users")
+	.then((res) => res.json())
+	// .then((data) => console.log(data))
+	.then((data) => console.log(data.map((d) => d.name))) // 🙂
+	.catch((error) => console.log(error));
