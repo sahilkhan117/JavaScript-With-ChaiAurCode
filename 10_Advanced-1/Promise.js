@@ -48,3 +48,16 @@ const promiceFour = new Promise(function (resolve, reject) {
 		}
 	}, 1000);
 });
+
+promiceFour
+	.then(function (user) {
+		console.log(user);
+		return user.username;
+	})
+	.then(function (username) {
+		console.log(username);
+	})
+	.catch(function (error) {
+		console.log(error);
+	})
+	.finally(() => console.log("Promise Ended"));
