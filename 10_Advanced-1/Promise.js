@@ -24,3 +24,15 @@ new Promise(function (resolve, reject) {
 }).then(function () {
 	console.log("Async 2 resolved");
 });
+
+
+// 3️⃣
+const promiceThree = new Promise(function (resolve, reject) {
+	setTimeout(function () {
+		console.log("Async Task 3");
+		resolve({ username: "chai", email: "chai@code.com" });
+	}, 1000);
+});
+promiceThree.then(function (user) {
+	console.log(user);
+});
