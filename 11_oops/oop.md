@@ -23,3 +23,5 @@ object Literals
 > - `Encapsulation` - hiding the implementation, getters & setters
 > - `Inheritance` - 
 > - `Polymorphism` - methods for different forms
+
+![alt text](image.png)
