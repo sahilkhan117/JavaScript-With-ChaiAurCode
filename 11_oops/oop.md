@@ -7,3 +7,12 @@ Yes, JavaScript does have classes. This feature was introduced with the ECMAScri
 ## Object
 - collection of properties and methods
 - toLowercase
+
+
+### parts of OOP
+object Literals
+
+- Constructor Function
+- Prototypes
+- Classes
+- Instance (new, this)
