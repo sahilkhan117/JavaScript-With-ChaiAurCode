@@ -16,3 +16,10 @@ object Literals
 - Prototypes
 - Classes
 - Instance (new, this)
+
+### 4 Pillers of OOP
+
+> - `Abstraction` - fethch: we don't know what happen
+> - `Encapsulation` - hiding the implementation, getters & setters
+> - `Inheritance` - 
+> - `Polymorphism` - methods for different forms
