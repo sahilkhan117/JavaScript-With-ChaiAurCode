@@ -17,3 +17,7 @@ function createUser(username, email, password){
     this.email = email
     this.password = password
 }
+
+const chai = new createUser("sahil", "sahil@ms.com", "786")
+
+console.log(chai);
