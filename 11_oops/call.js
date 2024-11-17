@@ -8,3 +8,12 @@ function setUserName(username){
     this.username = username
     console.log("Called");
 }
+
+function createUser(username, email, password){
+    // setUserName(username) // 😵‍💫 not work (can't take the this scope)
+    // setUserName.call(username) // 🧐 better but provide some more
+    setUserName.call(this, username) // 🤩 fully worked
+
+    this.email = email
+    this.password = password
+}
