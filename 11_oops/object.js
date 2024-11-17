@@ -16,3 +16,9 @@ function CreateUser(username, score) {
 
 CreateUser.prototype.increment = () => {this.score++}
 CreateUser.prototype.printMe = () => {console.log(`price is ${this.score}`)}
+
+const chai = new CreateUser("chai", 25)
+const tea = new CreateUser("tea", 10)
+
+console.log(chai.increment());
+console.log(chai.printMe());
