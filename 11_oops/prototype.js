@@ -27,3 +27,7 @@ let heroPower = {
 Object.prototype.sahil = function () {
 	console.log(`sahil is present in obj`);
 };
+
+// heroPower.sahil(); // ✅
+// myHeros.sahil(); // ✅
+
