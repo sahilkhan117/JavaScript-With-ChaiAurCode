@@ -31,3 +31,9 @@ Object.prototype.sahil = function () {
 // heroPower.sahil(); // ✅
 // myHeros.sahil(); // ✅
 
+
+
+// INHERITENCE
+
+// TeachingStaff.__proto__ = Teacher // 🧓🏻 OLD
+// Object.setPrototypeOf(TeachingStaff., Teacher) // 🆕 NEW (Modern Syntax 💫)
