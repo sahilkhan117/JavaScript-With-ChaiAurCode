@@ -21,5 +21,9 @@ let heroPower = {
 	getSpiderPower: function () {
 		console.log(`Spidy power is ${this.spiderman}`);
 	},
-    
+
+};
+
+Object.prototype.sahil = function () {
+	console.log(`sahil is present in obj`);
 };
