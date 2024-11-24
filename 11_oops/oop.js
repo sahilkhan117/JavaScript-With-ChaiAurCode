@@ -9,3 +9,9 @@ const user = {
 
 console.log(user);
 console.log(user.greet());
+
+function User(username, loginCount, isLoggedIn) {
+    this.username = username;
+    this.loginCount = loginCount;
+    this.isLoggedIn = isLoggedIn;
+}
