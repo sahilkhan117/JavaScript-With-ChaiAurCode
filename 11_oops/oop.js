@@ -6,3 +6,6 @@ const user = {
         console.log("hello", this.username);
     }
 }
+
+console.log(user);
+console.log(user.greet());
