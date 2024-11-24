@@ -14,4 +14,10 @@ function User(username, loginCount, isLoggedIn) {
     this.username = username;
     this.loginCount = loginCount;
     this.isLoggedIn = isLoggedIn;
+
+    this.greet = function () {
+        console.log("hello", this.username);
+    }
+
+    return this
 }
