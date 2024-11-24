@@ -21,3 +21,5 @@ function User(username, loginCount, isLoggedIn) {
 
     return this
 }
+
+const UserOne = User("sahil", 8, true); // if 🆕 not use this changed 
