@@ -13,3 +13,6 @@ class User {
 }
 
 const chai = new User("Sahil")
+
+console.log(chai.username);
+chai.CallMe()
