@@ -6,4 +6,8 @@ class User {
 	constructor(username) {
 		this.username = username;
 	}
+    
+    CallMe(){
+        console.log(`My name is ${this.username}`);
+    }
 }
