@@ -11,3 +11,5 @@ class User {
         console.log(`My name is ${this.username}`);
     }
 }
+
+const chai = new User("Sahil")
