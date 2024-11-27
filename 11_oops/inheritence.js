@@ -11,3 +11,8 @@ class User{
         console.log(`Log Me ${this.username}`);
     }
 }
+
+// Make a child class of User
+class Teacher extends User{
+    // code here
+}
