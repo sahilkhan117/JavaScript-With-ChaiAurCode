@@ -33,3 +33,14 @@ chai.addCourse()
 const Masala = new User("Masala")
 // Masala.addCourse() // not accses 😤
 Masala.logMe()
+
+
+// ⚡ instanceof use for check the instance
+console.log(chai instanceof Teacher);
+console.log(chai instanceof User);
+
+console.log(Masala instanceof Teacher); // False 😯
+console.log(Masala instanceof User);
+
+console.log(Teacher instanceof User); // false 😶‍🌫️ 💫
+console.log(User instanceof Teacher); // false 😶‍🌫️ 💫
