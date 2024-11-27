@@ -25,3 +25,7 @@ class Teacher extends User {
 		console.log(`A new Course added by ${this.username}`);
 	}
 }
+
+const chai = new Teacher("Sahil", "sahil@ms.com", "786")
+chai.logMe()
+chai.addCourse()
