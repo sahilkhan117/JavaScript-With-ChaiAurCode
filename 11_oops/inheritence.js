@@ -14,7 +14,8 @@ class User {
 // Make a child class of User
 class Teacher extends User {
 	constructor(username, email, password) {
-		
+		super(username);
+		// this will we call the parent class construcor and also give the 'this' access
 
 		this.email = email;
 		this.password = password;
