@@ -29,3 +29,7 @@ class Teacher extends User {
 const chai = new Teacher("Sahil", "sahil@ms.com", "786")
 chai.logMe()
 chai.addCourse()
+
+const Masala = new User("Masala")
+// Masala.addCourse() // not accses 😤
+Masala.logMe()
