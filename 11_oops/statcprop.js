@@ -21,3 +21,11 @@ class User{
 const hitesh = new User("sahil")
 // console.log(hitesh.createID()) // cant acces because of 'static'
 
+// INHERIT
+class Teacher extends User{
+    constructor(username, email){
+        super(username)
+
+        this.email = email
+    }
+}
