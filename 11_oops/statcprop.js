@@ -32,3 +32,5 @@ class Teacher extends User{
 
 const Iphone = new Teacher("iphone", "i@phone.com")
 // console.log(Iphone.createID()); // also cannot accessd by inherit classes
+
+console.log(User.createID()); // 123
