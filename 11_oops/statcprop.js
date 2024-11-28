@@ -12,4 +12,8 @@ class User{
     logMe(){
         console.log(`Username: ${this.username}`);
     }
+
+    static createID(){ // static keyword make it unaccesable (cannot use by Objects)
+        return '123'
+    }
 }
