@@ -17,3 +17,7 @@ class User{
         return '123'
     }
 }
+
+const hitesh = new User("sahil")
+// console.log(hitesh.createID()) // cant acces because of 'static'
+
