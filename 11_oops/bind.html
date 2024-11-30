@@ -21,6 +21,7 @@
              document.querySelector("button")
                 // .addEventListener("click", this.handleClick)
                 // 'this' return null in this case (we need to bind with our constructor 'this' variables)
+                .addEventListener("click", this.handleClick.bind(this))
         }
 
         }
