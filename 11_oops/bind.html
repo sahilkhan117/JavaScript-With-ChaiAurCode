@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>React</title>
 </head>
+
 <body>
     <button>Click Me</button>
     <p></p>
@@ -13,18 +15,26 @@
 </body>
 <script>
     class React {
-        constructor(){
+        constructor() {
             this.library = "React"
             this.Server = "https://localehost:3000"
 
-             // requirment
-             document.querySelector("button")
+            // requirment
+            document.querySelector("button")
                 // .addEventListener("click", this.handleClick)
                 // 'this' return null in this case (we need to bind with our constructor 'this' variables)
                 .addEventListener("click", this.handleClick.bind(this))
         }
 
+        handleClick() {
+            document.querySelector("p1").innerHTML = "Clicked"
+            // document.querySelector("p2").innerHTML = this
+            console.log(this);
+            console.log(this.Server);
+            
         }
     }
+
 </script>
+
 </html>
