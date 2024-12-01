@@ -16,3 +16,13 @@ console.log(descripter);
 // Math.PI = 5
 // console.log(Math.PI);
 // ❌❌❌ never Changed because `Writable: false`
+
+const chai = {
+	name: "Ginger",
+	price: 250,
+	isAvailable: true,
+
+    orderChai : function() {
+        console.log('Code Fat Gaay 💥');
+    }
+};
