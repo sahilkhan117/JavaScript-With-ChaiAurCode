@@ -36,3 +36,8 @@ console.log(Object.getOwnPropertyDescriptor(chai, "name"));
 //     enumerable: true,
 //     configurable: true
 // }
+
+Object.defineProperty(chai, "name", {
+	writable: false,
+	enumerable: false,
+});
