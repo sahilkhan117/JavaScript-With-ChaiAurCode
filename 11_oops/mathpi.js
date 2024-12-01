@@ -26,3 +26,13 @@ const chai = {
         console.log('Code Fat Gaay 💥');
     }
 };
+console.log(chai);
+
+console.log(Object.getOwnPropertyDescriptor(chai, "name"));
+// 😵‍💫
+// {
+//     value: 'Ginger',
+//     writable: true,
+//     enumerable: true,
+//     configurable: true
+// }
