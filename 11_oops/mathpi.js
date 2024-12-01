@@ -10,3 +10,9 @@ console.log(descripter);
 //   enumerable: false,
 //   configurable: false
 // }
+
+// 🌟🌟🌟 Change the value
+// console.log(Math.PI);
+// Math.PI = 5
+// console.log(Math.PI);
+// ❌❌❌ never Changed because `Writable: false`
