@@ -54,4 +54,7 @@ for (const [key, value] of Object.entries(chai)) {
 	if (typeof value !== "function") {
         console.log(`${key} : ${value}`);
     }
+	// price : 250
+    // isAvailable : true
+
 }
