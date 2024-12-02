@@ -56,5 +56,7 @@ for (const [key, value] of Object.entries(chai)) {
     }
 	// price : 250
     // isAvailable : true
+	
+    // the name is not occure because it is UnEnumerable
 
 }
