@@ -49,3 +49,6 @@ console.log(Object.getOwnPropertyDescriptor(chai, "name"));
 //     enumerable: false,
 //     configurable: true
 // }
+
+for (const [key, value] of Object.entries(chai)) {
+}
