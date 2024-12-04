@@ -7,6 +7,10 @@ function User(email, password) {
         set: function(val){this._email = val}
     })
 
+    Object.defineProperty(this, "password", {
+        get: function(){return this._password.toUpperCase()},
+        set: function(val){this._password = val}
+    })
 }
 
 const chai = new User("sahil@ma.com", "asd")
