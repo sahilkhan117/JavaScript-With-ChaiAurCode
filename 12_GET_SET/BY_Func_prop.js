@@ -3,3 +3,6 @@ function User(email, password) {
 	this._password = password;
 
 }
+
+const chai = new User("sahil@ma.com", "asd")
+console.log(chai.email);
