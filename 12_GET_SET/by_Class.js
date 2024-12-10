@@ -20,3 +20,5 @@ class User {
 		this._password = val + "ok";
 	}
 }
+
+const chai = new User("sahil@ms.com", "asd");
