@@ -13,5 +13,10 @@ class User {
 	set email(val) {
 		this._email = val + "ok";
 	}
-
+	get password() {
+		return this._password.toUpperCase();
+	}
+	set password(val) {
+		this._password = val + "ok";
+	}
 }
