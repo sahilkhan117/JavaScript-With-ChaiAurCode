@@ -22,3 +22,6 @@ class User {
 }
 
 const chai = new User("sahil@ms.com", "asd");
+console.log(chai.password);
+chai.password = "msa";
+console.log(chai.password);
