@@ -9,6 +9,7 @@ const User = {
 		this._email = val;
 	},
 
+    // Whenever you try to access the password property, it will return the password in uppercase.
     get password() {
 		return this._password.toUpperCase();
 	},
