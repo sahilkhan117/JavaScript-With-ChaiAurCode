@@ -8,4 +8,11 @@ const User = {
 	set email(val) {
 		this._email = val;
 	},
+    
+    get password() {
+		return this._password.toUpperCase();
+	},
+	set password(val) {
+		this._password = val;
+	},
 }
