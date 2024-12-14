@@ -29,10 +29,14 @@
     // console.log(name); // Error: name is not defined
 
     function outer(){
-        let username = "sahi;"
+        let username = "sahil"
+        function inner(){
+            console.log(username);
+        }
     }
 
-    console.log(username);
+    outer()
+    console.log("TOO Outer", username);
     // Error: username is not defined
 
 </script>
