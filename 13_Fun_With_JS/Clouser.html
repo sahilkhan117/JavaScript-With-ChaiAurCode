@@ -31,7 +31,10 @@
     function outer(){
         let username = "sahil"
         function inner(){
-            console.log(username);
+            console.log("inner", username);
+        }
+        function inner2(){
+            console.log("inner2", username);
         }
     }
 
