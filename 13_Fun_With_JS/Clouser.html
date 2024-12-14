@@ -28,14 +28,20 @@
     init("Sahil")
     // console.log(name); // Error: name is not defined
 
-    function outer(){
+    function outer() {
         let username = "sahil"
-        function inner(){
+
+        function inner() {
+            let Secret = "My123"
             console.log("inner", username);
         }
-        function inner2(){
+
+        function inner2() {
             console.log("inner2", username);
         }
+        
+        inner()
+        inner2()
     }
 
     outer()
