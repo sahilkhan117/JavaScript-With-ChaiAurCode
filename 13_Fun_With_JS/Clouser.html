@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clouser</title>
+</head>
+
+<body>
+
+</body>
+
+<script>
+    // 🚀 Clouser: A closure in JavaScript is a feature where an inner function has access to the outer (enclosing) function's variables. This includes:
+    // Variables declared within the outer function. Parameters of the outer function. Variables declared in the global scope.
+    // Closures are created every time a function is created, at function creation time.
+
+    // ⚡ In my code example:
+    function init(nm) {
+        let name = nm
+
+        function displayname() {
+            console.log(name);
+        }
+        displayname()
+    }
+    init("Sahil")
+    // console.log(name); // Error: name is not defined
+
+
+</script>
+
+</html>
