@@ -39,7 +39,7 @@
     //     function inner2() {
     //         console.log("inner2", username);
     //     }
-        
+
     //     inner()
     //     inner2()
     // }
@@ -48,14 +48,17 @@
     // console.log("TOO Outer", username);
     // Error: username is not defined
 
-function makeFunc (){
-    const name = "Mozilla"
+    function makeFunc() {
+        const name = "Mozilla"
 
-    function displayName(){
-        console.log(name);
+        function displayName() {
+            console.log(name);
+        }
+        return displayName
     }
-    return displayName
-}
+
+    const myFunc = makeFunc()
+    myFunc()
 </script>
 
 </html>
