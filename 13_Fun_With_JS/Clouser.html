@@ -17,35 +17,35 @@
     // Closures are created every time a function is created, at function creation time.
 
     // ⚡ In my code example:
-    function init(nm) {
-        let name = nm
+    // function init(nm) {
+    //     let name = nm
 
-        function displayname() {
-            console.log(name);
-        }
-        displayname()
-    }
-    init("Sahil")
+    //     function displayname() {
+    //         console.log(name);
+    //     }
+    //     displayname()
+    // }
+    // init("Sahil")
     // console.log(name); // Error: name is not defined
 
-    function outer() {
-        let username = "sahil"
+    // function outer() {
+    //     let username = "sahil"
 
-        function inner() {
-            let Secret = "My123"
-            console.log("inner", username);
-        }
+    //     function inner() {
+    //         let Secret = "My123"
+    //         console.log("inner", username);
+    //     }
 
-        function inner2() {
-            console.log("inner2", username);
-        }
+    //     function inner2() {
+    //         console.log("inner2", username);
+    //     }
         
-        inner()
-        inner2()
-    }
+    //     inner()
+    //     inner2()
+    // }
 
-    outer()
-    console.log("TOO Outer", username);
+    // outer()
+    // console.log("TOO Outer", username);
     // Error: username is not defined
 
 </script>
