@@ -76,8 +76,14 @@
     function hancleClick(color) {
         // 🤔 Not Work: Because onclick except a function refrence
         // document.body.style.background = color
+
+        // 🚀 Clouser
+        return function () {
+            document.body.style.background = color
+        }
     }
 
     document.querySelector("#orange").onclick = hancleClick("orange")
+    document.querySelector("#green").onclick = hancleClick("green")
 </script>
 </html>
