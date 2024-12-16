@@ -65,11 +65,19 @@
 </script>
 
 <script>
-    document.querySelector("#orange").addEventListener("click", function () {
-        document.body.style.background = "orange"
-    })
-    document.querySelector("#green").addEventListener("click", function () {
-        document.body.style.background = "green"
-    })
+    // document.querySelector("#orange").addEventListener("click", function () {
+    //     document.body.style.background = "orange"
+    // })
+    // document.querySelector("#green").addEventListener("click", function () {
+    //     document.body.style.background = "green"
+    // })
+
+    // For more complex code we can use Clouser
+    function hancleClick(color) {
+        // 🤔 Not Work: Because onclick except a function refrence
+        // document.body.style.background = color
+    }
+
+    document.querySelector("#orange").onclick = hancleClick("orange")
 </script>
 </html>
